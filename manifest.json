@@ -1,0 +1,186 @@
+{
+  "source_base_path": "C:/Users/brand/source/repos/Assignment/BOOSEapp",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppCanvas",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppCanvas.yml\" sourcestartlinenumber=\"1\">Represents a drawable canvas that provides basic drawing operations such as drawing shapes and lines.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.CustomFactory.MyCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.CustomFactory.MyCircle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.CustomFactory.MyCircle",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.CustomFactory.MyCircle.yml\" sourcestartlinenumber=\"1\">MyCircle class for drawing circles. Custom implementation that bypasses size limits in BOOSE Circle command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.CustomFactory.MyMoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.CustomFactory.MyMoveTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.CustomFactory.MyMoveTo",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.CustomFactory.MyMoveTo.yml\" sourcestartlinenumber=\"1\">MyMoveTo class for moving the drawing cursor. Custom implementation that bypasses position limits in BOOSE MoveTo command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.CustomFactory.MyRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.CustomFactory.MyRect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.CustomFactory.MyRect",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.CustomFactory.MyRect.yml\" sourcestartlinenumber=\"1\">MyRect class for drawing rectangles. Custom implementation that bypasses size limits in BOOSE Rect command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.CustomFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.CustomFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.CustomFactory",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.Form1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.Form1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
