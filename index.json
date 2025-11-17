@@ -34,6 +34,16 @@
     "title": "Namespace BOOSEapp | BOOSEsite",
     "summary": "Namespace BOOSEapp Classes AppCanvas Represents a drawable canvas that provides basic drawing operations such as drawing shapes and lines. CustomFactory CustomFactory.MyCircle MyCircle class for drawing circles. Custom implementation that bypasses size limits in BOOSE Circle command. CustomFactory.MyMoveTo MyMoveTo class for moving the drawing cursor. Custom implementation that bypasses position limits in BOOSE MoveTo command. CustomFactory.MyRect MyRect class for drawing rectangles. Custom implementation that bypasses size limits in BOOSE Rect command. Form1"
   },
+  "api/BooseTest.AppCanvasTests.html": {
+    "href": "api/BooseTest.AppCanvasTests.html",
+    "title": "Class AppCanvasTests | BOOSEsite",
+    "summary": "Class AppCanvasTests Namespace BooseTest Assembly BooseTest.dll Contains unit tests for the AppCanvas class. [TestClass] public sealed class AppCanvasTests Inheritance object AppCanvasTests Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Methods CircleDrawsSomething() [TestMethod] public void CircleDrawsSomething() Circle_Filled_Fills() [TestMethod] public void Circle_Filled_Fills() DrawTo_UpdatesPosition() [TestMethod] public void DrawTo_UpdatesPosition() MoveTo_UpdatesPosition() [TestMethod] public void MoveTo_UpdatesPosition() Multiline_Program_PenTest() [TestMethod] public void Multiline_Program_PenTest() RectDrawsSomething() [TestMethod] public void RectDrawsSomething() Rect_Filled_Fills() [TestMethod] public void Rect_Filled_Fills()"
+  },
+  "api/BooseTest.html": {
+    "href": "api/BooseTest.html",
+    "title": "Namespace BooseTest | BOOSEsite",
+    "summary": "Namespace BooseTest Classes AppCanvasTests Contains unit tests for the AppCanvas class."
+  },
   "docs/getting-started.html": {
     "href": "docs/getting-started.html",
     "title": "Getting Started | BOOSEsite",
