@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Namespace BOOSEapp | BOOSEsite </title>
+      <title>Namespace BOOSEapp | BOOSEapp </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Namespace BOOSEapp | BOOSEsite ">
+      <meta name="title" content="Namespace BOOSEapp | BOOSEapp ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -13,7 +13,7 @@
       <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
-      <meta name="docfx:rel" content="../">
+      
       
       
       
@@ -44,18 +44,14 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="BOOSEsite">
-            BOOSEsite
+            <img id="logo" class="svg" src="../logo.svg" alt="BOOSEapp">
+            BOOSEapp
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
           </button>
           <div class="collapse navbar-collapse" id="navpanel">
             <div id="navbar">
-              <form class="search" role="search" id="search">
-                <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
-              </form>
             </div>
           </div>
         </div>
@@ -100,27 +96,123 @@ Classes
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.CanvasSingleton.html">CanvasSingleton</a></dt>
+      <dd><p>Thread-safe singleton wrapper for <a class="xref" href="BOOSEapp.AppCanvas.html">AppCanvas</a>.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="BOOSEapp.CustomFactory.html">CustomFactory</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="BOOSEapp.CustomFactory.MyCircle.html">CustomFactory.MyCircle</a></dt>
-      <dd><p>MyCircle class for drawing circles. Custom implementation that bypasses size limits in BOOSE Circle command.</p>
+      <dd><p>Factory for creating application-specific <span class="xref">BOOSE.ICommand</span> implementations.</p>
 </dd>
     </dl>
     <dl class="jumplist">
-      <dt><a class="xref" href="BOOSEapp.CustomFactory.MyMoveTo.html">CustomFactory.MyMoveTo</a></dt>
-      <dd><p>MyMoveTo class for moving the drawing cursor. Custom implementation that bypasses position limits in BOOSE MoveTo command.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="BOOSEapp.CustomFactory.MyRect.html">CustomFactory.MyRect</a></dt>
-      <dd><p>MyRect class for drawing rectangles. Custom implementation that bypasses size limits in BOOSE Rect command.</p>
+      <dt><a class="xref" href="BOOSEapp.ExpressionEvaluator.html">ExpressionEvaluator</a></dt>
+      <dd><p>Lightweight expression evaluator used by int/real variable handling.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSEapp.Form1.html">Form1</a></dt>
-      <dd></dd>
+      <dd><p>Main form for the BOOSE application.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.MyArray.html">MyArray</a></dt>
+      <dd><p>Array declaration and management support.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.MyBool.html">MyBool</a></dt>
+      <dd><p>Boolean variable support, including expression parsing and storage.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.MyCircle.html">MyCircle</a></dt>
+      <dd><p>Draws a circle on the canvas using a size parameter and optional fill flag.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.MyDrawTo.html">MyDrawTo</a></dt>
+      <dd><p>Draws a line from current position to the given coordinates.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.MyEvaluation.html">MyEvaluation</a></dt>
+      <dd><p>Handles assignment and evaluation statements (e.g. &quot;x = 5&quot; or &quot;x&quot;).</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.MyInt.html">MyInt</a></dt>
+      <dd><p>Integer variable declaration/execution support.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.MyMoveTo.html">MyMoveTo</a></dt>
+      <dd><p>Moves the drawing position without drawing.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.MyParser.html">MyParser</a></dt>
+      <dd><p>Parser implementation used by the BOOSE application.
+Parses a single program line into a concrete <span class="xref">BOOSE.ICommand</span> using the provided <a class="xref" href="BOOSEapp.CustomFactory.html">CustomFactory</a>.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.MyPeek.html">MyPeek</a></dt>
+      <dd><p>Implements peek operation to read from arrays and store into variables.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.MyPen.html">MyPen</a></dt>
+      <dd><p>Sets the drawing pen color.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.MyPoke.html">MyPoke</a></dt>
+      <dd><p>Implements poke operation to write into arrays.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.MyReal.html">MyReal</a></dt>
+      <dd><p>Real (double) variable declaration/execution support.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.MyRect.html">MyRect</a></dt>
+      <dd><p>Draws a rectangle on the canvas using two numeric parameters and optional fill flag.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.MyTri.html">MyTri</a></dt>
+      <dd><p>Draws a triangle on the canvas.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.MyWriteText.html">MyWriteText</a></dt>
+      <dd><p>Writes one or more pieces of text to the canvas; supports concatenation and variable substitution.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.TestCanvas.html">TestCanvas</a></dt>
+      <dd><p>Test double for canvas operations used by unit tests.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.VariableResolver.html">VariableResolver</a></dt>
+      <dd><p>Helper methods to resolve tokens into integer values using literals and the variable store.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.VariableStore.html">VariableStore</a></dt>
+      <dd><p>Singleton that stores int, real and bool variables with change notifications.</p>
+</dd>
+    </dl>
+    <h3 id="interfaces">
+Interfaces
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEapp.MyCanvasOps.html">MyCanvasOps</a></dt>
+      <dd><p>Defines minimal canvas operations used by application commands.</p>
+</dd>
     </dl>
 
 
@@ -137,7 +229,6 @@ Classes
       </div>
     </main>
 
-    <div class="container-xxl search-results" id="search-results"></div>
 
     <footer class="border-top text-secondary">
       <div class="container-xxl">

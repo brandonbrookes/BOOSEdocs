@@ -238,21 +238,69 @@ references:
   isSpec: "True"
   fullName: BOOSEapp.AppCanvas.getBitmap
   nameWithType: AppCanvas.getBitmap
+- uid: BOOSEapp.CanvasSingleton
+  name: CanvasSingleton
+  href: api/BOOSEapp.CanvasSingleton.html
+  commentId: T:BOOSEapp.CanvasSingleton
+  fullName: BOOSEapp.CanvasSingleton
+  nameWithType: CanvasSingleton
+- uid: BOOSEapp.CanvasSingleton.Create(System.Int32,System.Int32)
+  name: Create(int, int)
+  href: api/BOOSEapp.CanvasSingleton.html#BOOSEapp_CanvasSingleton_Create_System_Int32_System_Int32_
+  commentId: M:BOOSEapp.CanvasSingleton.Create(System.Int32,System.Int32)
+  name.vb: Create(Integer, Integer)
+  fullName: BOOSEapp.CanvasSingleton.Create(int, int)
+  fullName.vb: BOOSEapp.CanvasSingleton.Create(Integer, Integer)
+  nameWithType: CanvasSingleton.Create(int, int)
+  nameWithType.vb: CanvasSingleton.Create(Integer, Integer)
+- uid: BOOSEapp.CanvasSingleton.Create*
+  name: Create
+  href: api/BOOSEapp.CanvasSingleton.html#BOOSEapp_CanvasSingleton_Create_
+  commentId: Overload:BOOSEapp.CanvasSingleton.Create
+  isSpec: "True"
+  fullName: BOOSEapp.CanvasSingleton.Create
+  nameWithType: CanvasSingleton.Create
+- uid: BOOSEapp.CanvasSingleton.Instance
+  name: Instance
+  href: api/BOOSEapp.CanvasSingleton.html#BOOSEapp_CanvasSingleton_Instance
+  commentId: P:BOOSEapp.CanvasSingleton.Instance
+  fullName: BOOSEapp.CanvasSingleton.Instance
+  nameWithType: CanvasSingleton.Instance
+- uid: BOOSEapp.CanvasSingleton.Instance*
+  name: Instance
+  href: api/BOOSEapp.CanvasSingleton.html#BOOSEapp_CanvasSingleton_Instance_
+  commentId: Overload:BOOSEapp.CanvasSingleton.Instance
+  isSpec: "True"
+  fullName: BOOSEapp.CanvasSingleton.Instance
+  nameWithType: CanvasSingleton.Instance
+- uid: BOOSEapp.CanvasSingleton.ResetForTest
+  name: ResetForTest()
+  href: api/BOOSEapp.CanvasSingleton.html#BOOSEapp_CanvasSingleton_ResetForTest
+  commentId: M:BOOSEapp.CanvasSingleton.ResetForTest
+  fullName: BOOSEapp.CanvasSingleton.ResetForTest()
+  nameWithType: CanvasSingleton.ResetForTest()
+- uid: BOOSEapp.CanvasSingleton.ResetForTest*
+  name: ResetForTest
+  href: api/BOOSEapp.CanvasSingleton.html#BOOSEapp_CanvasSingleton_ResetForTest_
+  commentId: Overload:BOOSEapp.CanvasSingleton.ResetForTest
+  isSpec: "True"
+  fullName: BOOSEapp.CanvasSingleton.ResetForTest
+  nameWithType: CanvasSingleton.ResetForTest
 - uid: BOOSEapp.CustomFactory
   name: CustomFactory
   href: api/BOOSEapp.CustomFactory.html
   commentId: T:BOOSEapp.CustomFactory
   fullName: BOOSEapp.CustomFactory
   nameWithType: CustomFactory
-- uid: BOOSEapp.CustomFactory.#ctor(BOOSEapp.AppCanvas)
-  name: CustomFactory(AppCanvas)
-  href: api/BOOSEapp.CustomFactory.html#BOOSEapp_CustomFactory__ctor_BOOSEapp_AppCanvas_
-  commentId: M:BOOSEapp.CustomFactory.#ctor(BOOSEapp.AppCanvas)
-  name.vb: New(AppCanvas)
-  fullName: BOOSEapp.CustomFactory.CustomFactory(BOOSEapp.AppCanvas)
-  fullName.vb: BOOSEapp.CustomFactory.New(BOOSEapp.AppCanvas)
-  nameWithType: CustomFactory.CustomFactory(AppCanvas)
-  nameWithType.vb: CustomFactory.New(AppCanvas)
+- uid: BOOSEapp.CustomFactory.#ctor(BOOSEapp.MyCanvasOps)
+  name: CustomFactory(MyCanvasOps)
+  href: api/BOOSEapp.CustomFactory.html#BOOSEapp_CustomFactory__ctor_BOOSEapp_MyCanvasOps_
+  commentId: M:BOOSEapp.CustomFactory.#ctor(BOOSEapp.MyCanvasOps)
+  name.vb: New(MyCanvasOps)
+  fullName: BOOSEapp.CustomFactory.CustomFactory(BOOSEapp.MyCanvasOps)
+  fullName.vb: BOOSEapp.CustomFactory.New(BOOSEapp.MyCanvasOps)
+  nameWithType: CustomFactory.CustomFactory(MyCanvasOps)
+  nameWithType.vb: CustomFactory.New(MyCanvasOps)
 - uid: BOOSEapp.CustomFactory.#ctor*
   name: CustomFactory
   href: api/BOOSEapp.CustomFactory.html#BOOSEapp_CustomFactory__ctor_
@@ -279,168 +327,44 @@ references:
   isSpec: "True"
   fullName: BOOSEapp.CustomFactory.MakeCommand
   nameWithType: CustomFactory.MakeCommand
-- uid: BOOSEapp.CustomFactory.MyCircle
-  name: CustomFactory.MyCircle
-  href: api/BOOSEapp.CustomFactory.MyCircle.html
-  commentId: T:BOOSEapp.CustomFactory.MyCircle
-  fullName: BOOSEapp.CustomFactory.MyCircle
-  nameWithType: CustomFactory.MyCircle
-- uid: BOOSEapp.CustomFactory.MyCircle.#ctor(BOOSEapp.AppCanvas)
-  name: MyCircle(AppCanvas)
-  href: api/BOOSEapp.CustomFactory.MyCircle.html#BOOSEapp_CustomFactory_MyCircle__ctor_BOOSEapp_AppCanvas_
-  commentId: M:BOOSEapp.CustomFactory.MyCircle.#ctor(BOOSEapp.AppCanvas)
-  name.vb: New(AppCanvas)
-  fullName: BOOSEapp.CustomFactory.MyCircle.MyCircle(BOOSEapp.AppCanvas)
-  fullName.vb: BOOSEapp.CustomFactory.MyCircle.New(BOOSEapp.AppCanvas)
-  nameWithType: CustomFactory.MyCircle.MyCircle(AppCanvas)
-  nameWithType.vb: CustomFactory.MyCircle.New(AppCanvas)
-- uid: BOOSEapp.CustomFactory.MyCircle.#ctor*
-  name: MyCircle
-  href: api/BOOSEapp.CustomFactory.MyCircle.html#BOOSEapp_CustomFactory_MyCircle__ctor_
-  commentId: Overload:BOOSEapp.CustomFactory.MyCircle.#ctor
+- uid: BOOSEapp.ExpressionEvaluator
+  name: ExpressionEvaluator
+  href: api/BOOSEapp.ExpressionEvaluator.html
+  commentId: T:BOOSEapp.ExpressionEvaluator
+  fullName: BOOSEapp.ExpressionEvaluator
+  nameWithType: ExpressionEvaluator
+- uid: BOOSEapp.ExpressionEvaluator.EvaluateToDouble(System.String)
+  name: EvaluateToDouble(string)
+  href: api/BOOSEapp.ExpressionEvaluator.html#BOOSEapp_ExpressionEvaluator_EvaluateToDouble_System_String_
+  commentId: M:BOOSEapp.ExpressionEvaluator.EvaluateToDouble(System.String)
+  name.vb: EvaluateToDouble(String)
+  fullName: BOOSEapp.ExpressionEvaluator.EvaluateToDouble(string)
+  fullName.vb: BOOSEapp.ExpressionEvaluator.EvaluateToDouble(String)
+  nameWithType: ExpressionEvaluator.EvaluateToDouble(string)
+  nameWithType.vb: ExpressionEvaluator.EvaluateToDouble(String)
+- uid: BOOSEapp.ExpressionEvaluator.EvaluateToDouble*
+  name: EvaluateToDouble
+  href: api/BOOSEapp.ExpressionEvaluator.html#BOOSEapp_ExpressionEvaluator_EvaluateToDouble_
+  commentId: Overload:BOOSEapp.ExpressionEvaluator.EvaluateToDouble
   isSpec: "True"
-  name.vb: New
-  fullName: BOOSEapp.CustomFactory.MyCircle.MyCircle
-  fullName.vb: BOOSEapp.CustomFactory.MyCircle.New
-  nameWithType: CustomFactory.MyCircle.MyCircle
-  nameWithType.vb: CustomFactory.MyCircle.New
-- uid: BOOSEapp.CustomFactory.MyCircle.CheckParameters(System.String[])
-  name: CheckParameters(string[])
-  href: api/BOOSEapp.CustomFactory.MyCircle.html#BOOSEapp_CustomFactory_MyCircle_CheckParameters_System_String___
-  commentId: M:BOOSEapp.CustomFactory.MyCircle.CheckParameters(System.String[])
-  name.vb: CheckParameters(String())
-  fullName: BOOSEapp.CustomFactory.MyCircle.CheckParameters(string[])
-  fullName.vb: BOOSEapp.CustomFactory.MyCircle.CheckParameters(String())
-  nameWithType: CustomFactory.MyCircle.CheckParameters(string[])
-  nameWithType.vb: CustomFactory.MyCircle.CheckParameters(String())
-- uid: BOOSEapp.CustomFactory.MyCircle.CheckParameters*
-  name: CheckParameters
-  href: api/BOOSEapp.CustomFactory.MyCircle.html#BOOSEapp_CustomFactory_MyCircle_CheckParameters_
-  commentId: Overload:BOOSEapp.CustomFactory.MyCircle.CheckParameters
+  fullName: BOOSEapp.ExpressionEvaluator.EvaluateToDouble
+  nameWithType: ExpressionEvaluator.EvaluateToDouble
+- uid: BOOSEapp.ExpressionEvaluator.EvaluateToInt(System.String)
+  name: EvaluateToInt(string)
+  href: api/BOOSEapp.ExpressionEvaluator.html#BOOSEapp_ExpressionEvaluator_EvaluateToInt_System_String_
+  commentId: M:BOOSEapp.ExpressionEvaluator.EvaluateToInt(System.String)
+  name.vb: EvaluateToInt(String)
+  fullName: BOOSEapp.ExpressionEvaluator.EvaluateToInt(string)
+  fullName.vb: BOOSEapp.ExpressionEvaluator.EvaluateToInt(String)
+  nameWithType: ExpressionEvaluator.EvaluateToInt(string)
+  nameWithType.vb: ExpressionEvaluator.EvaluateToInt(String)
+- uid: BOOSEapp.ExpressionEvaluator.EvaluateToInt*
+  name: EvaluateToInt
+  href: api/BOOSEapp.ExpressionEvaluator.html#BOOSEapp_ExpressionEvaluator_EvaluateToInt_
+  commentId: Overload:BOOSEapp.ExpressionEvaluator.EvaluateToInt
   isSpec: "True"
-  fullName: BOOSEapp.CustomFactory.MyCircle.CheckParameters
-  nameWithType: CustomFactory.MyCircle.CheckParameters
-- uid: BOOSEapp.CustomFactory.MyCircle.Execute
-  name: Execute()
-  href: api/BOOSEapp.CustomFactory.MyCircle.html#BOOSEapp_CustomFactory_MyCircle_Execute
-  commentId: M:BOOSEapp.CustomFactory.MyCircle.Execute
-  fullName: BOOSEapp.CustomFactory.MyCircle.Execute()
-  nameWithType: CustomFactory.MyCircle.Execute()
-- uid: BOOSEapp.CustomFactory.MyCircle.Execute*
-  name: Execute
-  href: api/BOOSEapp.CustomFactory.MyCircle.html#BOOSEapp_CustomFactory_MyCircle_Execute_
-  commentId: Overload:BOOSEapp.CustomFactory.MyCircle.Execute
-  isSpec: "True"
-  fullName: BOOSEapp.CustomFactory.MyCircle.Execute
-  nameWithType: CustomFactory.MyCircle.Execute
-- uid: BOOSEapp.CustomFactory.MyMoveTo
-  name: CustomFactory.MyMoveTo
-  href: api/BOOSEapp.CustomFactory.MyMoveTo.html
-  commentId: T:BOOSEapp.CustomFactory.MyMoveTo
-  fullName: BOOSEapp.CustomFactory.MyMoveTo
-  nameWithType: CustomFactory.MyMoveTo
-- uid: BOOSEapp.CustomFactory.MyMoveTo.#ctor(BOOSEapp.AppCanvas)
-  name: MyMoveTo(AppCanvas)
-  href: api/BOOSEapp.CustomFactory.MyMoveTo.html#BOOSEapp_CustomFactory_MyMoveTo__ctor_BOOSEapp_AppCanvas_
-  commentId: M:BOOSEapp.CustomFactory.MyMoveTo.#ctor(BOOSEapp.AppCanvas)
-  name.vb: New(AppCanvas)
-  fullName: BOOSEapp.CustomFactory.MyMoveTo.MyMoveTo(BOOSEapp.AppCanvas)
-  fullName.vb: BOOSEapp.CustomFactory.MyMoveTo.New(BOOSEapp.AppCanvas)
-  nameWithType: CustomFactory.MyMoveTo.MyMoveTo(AppCanvas)
-  nameWithType.vb: CustomFactory.MyMoveTo.New(AppCanvas)
-- uid: BOOSEapp.CustomFactory.MyMoveTo.#ctor*
-  name: MyMoveTo
-  href: api/BOOSEapp.CustomFactory.MyMoveTo.html#BOOSEapp_CustomFactory_MyMoveTo__ctor_
-  commentId: Overload:BOOSEapp.CustomFactory.MyMoveTo.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: BOOSEapp.CustomFactory.MyMoveTo.MyMoveTo
-  fullName.vb: BOOSEapp.CustomFactory.MyMoveTo.New
-  nameWithType: CustomFactory.MyMoveTo.MyMoveTo
-  nameWithType.vb: CustomFactory.MyMoveTo.New
-- uid: BOOSEapp.CustomFactory.MyMoveTo.CheckParameters(System.String[])
-  name: CheckParameters(string[])
-  href: api/BOOSEapp.CustomFactory.MyMoveTo.html#BOOSEapp_CustomFactory_MyMoveTo_CheckParameters_System_String___
-  commentId: M:BOOSEapp.CustomFactory.MyMoveTo.CheckParameters(System.String[])
-  name.vb: CheckParameters(String())
-  fullName: BOOSEapp.CustomFactory.MyMoveTo.CheckParameters(string[])
-  fullName.vb: BOOSEapp.CustomFactory.MyMoveTo.CheckParameters(String())
-  nameWithType: CustomFactory.MyMoveTo.CheckParameters(string[])
-  nameWithType.vb: CustomFactory.MyMoveTo.CheckParameters(String())
-- uid: BOOSEapp.CustomFactory.MyMoveTo.CheckParameters*
-  name: CheckParameters
-  href: api/BOOSEapp.CustomFactory.MyMoveTo.html#BOOSEapp_CustomFactory_MyMoveTo_CheckParameters_
-  commentId: Overload:BOOSEapp.CustomFactory.MyMoveTo.CheckParameters
-  isSpec: "True"
-  fullName: BOOSEapp.CustomFactory.MyMoveTo.CheckParameters
-  nameWithType: CustomFactory.MyMoveTo.CheckParameters
-- uid: BOOSEapp.CustomFactory.MyMoveTo.Execute
-  name: Execute()
-  href: api/BOOSEapp.CustomFactory.MyMoveTo.html#BOOSEapp_CustomFactory_MyMoveTo_Execute
-  commentId: M:BOOSEapp.CustomFactory.MyMoveTo.Execute
-  fullName: BOOSEapp.CustomFactory.MyMoveTo.Execute()
-  nameWithType: CustomFactory.MyMoveTo.Execute()
-- uid: BOOSEapp.CustomFactory.MyMoveTo.Execute*
-  name: Execute
-  href: api/BOOSEapp.CustomFactory.MyMoveTo.html#BOOSEapp_CustomFactory_MyMoveTo_Execute_
-  commentId: Overload:BOOSEapp.CustomFactory.MyMoveTo.Execute
-  isSpec: "True"
-  fullName: BOOSEapp.CustomFactory.MyMoveTo.Execute
-  nameWithType: CustomFactory.MyMoveTo.Execute
-- uid: BOOSEapp.CustomFactory.MyRect
-  name: CustomFactory.MyRect
-  href: api/BOOSEapp.CustomFactory.MyRect.html
-  commentId: T:BOOSEapp.CustomFactory.MyRect
-  fullName: BOOSEapp.CustomFactory.MyRect
-  nameWithType: CustomFactory.MyRect
-- uid: BOOSEapp.CustomFactory.MyRect.#ctor(BOOSEapp.AppCanvas)
-  name: MyRect(AppCanvas)
-  href: api/BOOSEapp.CustomFactory.MyRect.html#BOOSEapp_CustomFactory_MyRect__ctor_BOOSEapp_AppCanvas_
-  commentId: M:BOOSEapp.CustomFactory.MyRect.#ctor(BOOSEapp.AppCanvas)
-  name.vb: New(AppCanvas)
-  fullName: BOOSEapp.CustomFactory.MyRect.MyRect(BOOSEapp.AppCanvas)
-  fullName.vb: BOOSEapp.CustomFactory.MyRect.New(BOOSEapp.AppCanvas)
-  nameWithType: CustomFactory.MyRect.MyRect(AppCanvas)
-  nameWithType.vb: CustomFactory.MyRect.New(AppCanvas)
-- uid: BOOSEapp.CustomFactory.MyRect.#ctor*
-  name: MyRect
-  href: api/BOOSEapp.CustomFactory.MyRect.html#BOOSEapp_CustomFactory_MyRect__ctor_
-  commentId: Overload:BOOSEapp.CustomFactory.MyRect.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: BOOSEapp.CustomFactory.MyRect.MyRect
-  fullName.vb: BOOSEapp.CustomFactory.MyRect.New
-  nameWithType: CustomFactory.MyRect.MyRect
-  nameWithType.vb: CustomFactory.MyRect.New
-- uid: BOOSEapp.CustomFactory.MyRect.CheckParameters(System.String[])
-  name: CheckParameters(string[])
-  href: api/BOOSEapp.CustomFactory.MyRect.html#BOOSEapp_CustomFactory_MyRect_CheckParameters_System_String___
-  commentId: M:BOOSEapp.CustomFactory.MyRect.CheckParameters(System.String[])
-  name.vb: CheckParameters(String())
-  fullName: BOOSEapp.CustomFactory.MyRect.CheckParameters(string[])
-  fullName.vb: BOOSEapp.CustomFactory.MyRect.CheckParameters(String())
-  nameWithType: CustomFactory.MyRect.CheckParameters(string[])
-  nameWithType.vb: CustomFactory.MyRect.CheckParameters(String())
-- uid: BOOSEapp.CustomFactory.MyRect.CheckParameters*
-  name: CheckParameters
-  href: api/BOOSEapp.CustomFactory.MyRect.html#BOOSEapp_CustomFactory_MyRect_CheckParameters_
-  commentId: Overload:BOOSEapp.CustomFactory.MyRect.CheckParameters
-  isSpec: "True"
-  fullName: BOOSEapp.CustomFactory.MyRect.CheckParameters
-  nameWithType: CustomFactory.MyRect.CheckParameters
-- uid: BOOSEapp.CustomFactory.MyRect.Execute
-  name: Execute()
-  href: api/BOOSEapp.CustomFactory.MyRect.html#BOOSEapp_CustomFactory_MyRect_Execute
-  commentId: M:BOOSEapp.CustomFactory.MyRect.Execute
-  fullName: BOOSEapp.CustomFactory.MyRect.Execute()
-  nameWithType: CustomFactory.MyRect.Execute()
-- uid: BOOSEapp.CustomFactory.MyRect.Execute*
-  name: Execute
-  href: api/BOOSEapp.CustomFactory.MyRect.html#BOOSEapp_CustomFactory_MyRect_Execute_
-  commentId: Overload:BOOSEapp.CustomFactory.MyRect.Execute
-  isSpec: "True"
-  fullName: BOOSEapp.CustomFactory.MyRect.Execute
-  nameWithType: CustomFactory.MyRect.Execute
+  fullName: BOOSEapp.ExpressionEvaluator.EvaluateToInt
+  nameWithType: ExpressionEvaluator.EvaluateToInt
 - uid: BOOSEapp.Form1
   name: Form1
   href: api/BOOSEapp.Form1.html
@@ -530,106 +454,1756 @@ references:
   isSpec: "True"
   fullName: BOOSEapp.Form1.submitButton_Click
   nameWithType: Form1.submitButton_Click
-- uid: BooseTest
-  name: BooseTest
-  href: api/BooseTest.html
-  commentId: N:BooseTest
-  fullName: BooseTest
-  nameWithType: BooseTest
-- uid: BooseTest.AppCanvasTests
-  name: AppCanvasTests
-  href: api/BooseTest.AppCanvasTests.html
-  commentId: T:BooseTest.AppCanvasTests
-  fullName: BooseTest.AppCanvasTests
-  nameWithType: AppCanvasTests
-- uid: BooseTest.AppCanvasTests.CircleDrawsSomething
-  name: CircleDrawsSomething()
-  href: api/BooseTest.AppCanvasTests.html#BooseTest_AppCanvasTests_CircleDrawsSomething
-  commentId: M:BooseTest.AppCanvasTests.CircleDrawsSomething
-  fullName: BooseTest.AppCanvasTests.CircleDrawsSomething()
-  nameWithType: AppCanvasTests.CircleDrawsSomething()
-- uid: BooseTest.AppCanvasTests.CircleDrawsSomething*
-  name: CircleDrawsSomething
-  href: api/BooseTest.AppCanvasTests.html#BooseTest_AppCanvasTests_CircleDrawsSomething_
-  commentId: Overload:BooseTest.AppCanvasTests.CircleDrawsSomething
+- uid: BOOSEapp.MyArray
+  name: MyArray
+  href: api/BOOSEapp.MyArray.html
+  commentId: T:BOOSEapp.MyArray
+  fullName: BOOSEapp.MyArray
+  nameWithType: MyArray
+- uid: BOOSEapp.MyArray.AddIntArray(System.String,System.Int32)
+  name: AddIntArray(string, int)
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_AddIntArray_System_String_System_Int32_
+  commentId: M:BOOSEapp.MyArray.AddIntArray(System.String,System.Int32)
+  name.vb: AddIntArray(String, Integer)
+  fullName: BOOSEapp.MyArray.AddIntArray(string, int)
+  fullName.vb: BOOSEapp.MyArray.AddIntArray(String, Integer)
+  nameWithType: MyArray.AddIntArray(string, int)
+  nameWithType.vb: MyArray.AddIntArray(String, Integer)
+- uid: BOOSEapp.MyArray.AddIntArray*
+  name: AddIntArray
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_AddIntArray_
+  commentId: Overload:BOOSEapp.MyArray.AddIntArray
   isSpec: "True"
-  fullName: BooseTest.AppCanvasTests.CircleDrawsSomething
-  nameWithType: AppCanvasTests.CircleDrawsSomething
-- uid: BooseTest.AppCanvasTests.Circle_Filled_Fills
-  name: Circle_Filled_Fills()
-  href: api/BooseTest.AppCanvasTests.html#BooseTest_AppCanvasTests_Circle_Filled_Fills
-  commentId: M:BooseTest.AppCanvasTests.Circle_Filled_Fills
-  fullName: BooseTest.AppCanvasTests.Circle_Filled_Fills()
-  nameWithType: AppCanvasTests.Circle_Filled_Fills()
-- uid: BooseTest.AppCanvasTests.Circle_Filled_Fills*
-  name: Circle_Filled_Fills
-  href: api/BooseTest.AppCanvasTests.html#BooseTest_AppCanvasTests_Circle_Filled_Fills_
-  commentId: Overload:BooseTest.AppCanvasTests.Circle_Filled_Fills
+  fullName: BOOSEapp.MyArray.AddIntArray
+  nameWithType: MyArray.AddIntArray
+- uid: BOOSEapp.MyArray.AddRealArray(System.String,System.Int32)
+  name: AddRealArray(string, int)
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_AddRealArray_System_String_System_Int32_
+  commentId: M:BOOSEapp.MyArray.AddRealArray(System.String,System.Int32)
+  name.vb: AddRealArray(String, Integer)
+  fullName: BOOSEapp.MyArray.AddRealArray(string, int)
+  fullName.vb: BOOSEapp.MyArray.AddRealArray(String, Integer)
+  nameWithType: MyArray.AddRealArray(string, int)
+  nameWithType.vb: MyArray.AddRealArray(String, Integer)
+- uid: BOOSEapp.MyArray.AddRealArray*
+  name: AddRealArray
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_AddRealArray_
+  commentId: Overload:BOOSEapp.MyArray.AddRealArray
   isSpec: "True"
-  fullName: BooseTest.AppCanvasTests.Circle_Filled_Fills
-  nameWithType: AppCanvasTests.Circle_Filled_Fills
-- uid: BooseTest.AppCanvasTests.DrawTo_UpdatesPosition
-  name: DrawTo_UpdatesPosition()
-  href: api/BooseTest.AppCanvasTests.html#BooseTest_AppCanvasTests_DrawTo_UpdatesPosition
-  commentId: M:BooseTest.AppCanvasTests.DrawTo_UpdatesPosition
-  fullName: BooseTest.AppCanvasTests.DrawTo_UpdatesPosition()
-  nameWithType: AppCanvasTests.DrawTo_UpdatesPosition()
-- uid: BooseTest.AppCanvasTests.DrawTo_UpdatesPosition*
-  name: DrawTo_UpdatesPosition
-  href: api/BooseTest.AppCanvasTests.html#BooseTest_AppCanvasTests_DrawTo_UpdatesPosition_
-  commentId: Overload:BooseTest.AppCanvasTests.DrawTo_UpdatesPosition
+  fullName: BOOSEapp.MyArray.AddRealArray
+  nameWithType: MyArray.AddRealArray
+- uid: BOOSEapp.MyArray.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_CheckParameters_System_String___
+  commentId: M:BOOSEapp.MyArray.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: BOOSEapp.MyArray.CheckParameters(string[])
+  fullName.vb: BOOSEapp.MyArray.CheckParameters(String())
+  nameWithType: MyArray.CheckParameters(string[])
+  nameWithType.vb: MyArray.CheckParameters(String())
+- uid: BOOSEapp.MyArray.CheckParameters*
+  name: CheckParameters
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_CheckParameters_
+  commentId: Overload:BOOSEapp.MyArray.CheckParameters
   isSpec: "True"
-  fullName: BooseTest.AppCanvasTests.DrawTo_UpdatesPosition
-  nameWithType: AppCanvasTests.DrawTo_UpdatesPosition
-- uid: BooseTest.AppCanvasTests.MoveTo_UpdatesPosition
-  name: MoveTo_UpdatesPosition()
-  href: api/BooseTest.AppCanvasTests.html#BooseTest_AppCanvasTests_MoveTo_UpdatesPosition
-  commentId: M:BooseTest.AppCanvasTests.MoveTo_UpdatesPosition
-  fullName: BooseTest.AppCanvasTests.MoveTo_UpdatesPosition()
-  nameWithType: AppCanvasTests.MoveTo_UpdatesPosition()
-- uid: BooseTest.AppCanvasTests.MoveTo_UpdatesPosition*
-  name: MoveTo_UpdatesPosition
-  href: api/BooseTest.AppCanvasTests.html#BooseTest_AppCanvasTests_MoveTo_UpdatesPosition_
-  commentId: Overload:BooseTest.AppCanvasTests.MoveTo_UpdatesPosition
+  fullName: BOOSEapp.MyArray.CheckParameters
+  nameWithType: MyArray.CheckParameters
+- uid: BOOSEapp.MyArray.Execute
+  name: Execute()
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_Execute
+  commentId: M:BOOSEapp.MyArray.Execute
+  fullName: BOOSEapp.MyArray.Execute()
+  nameWithType: MyArray.Execute()
+- uid: BOOSEapp.MyArray.Execute*
+  name: Execute
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_Execute_
+  commentId: Overload:BOOSEapp.MyArray.Execute
   isSpec: "True"
-  fullName: BooseTest.AppCanvasTests.MoveTo_UpdatesPosition
-  nameWithType: AppCanvasTests.MoveTo_UpdatesPosition
-- uid: BooseTest.AppCanvasTests.Multiline_Program_PenTest
-  name: Multiline_Program_PenTest()
-  href: api/BooseTest.AppCanvasTests.html#BooseTest_AppCanvasTests_Multiline_Program_PenTest
-  commentId: M:BooseTest.AppCanvasTests.Multiline_Program_PenTest
-  fullName: BooseTest.AppCanvasTests.Multiline_Program_PenTest()
-  nameWithType: AppCanvasTests.Multiline_Program_PenTest()
-- uid: BooseTest.AppCanvasTests.Multiline_Program_PenTest*
-  name: Multiline_Program_PenTest
-  href: api/BooseTest.AppCanvasTests.html#BooseTest_AppCanvasTests_Multiline_Program_PenTest_
-  commentId: Overload:BooseTest.AppCanvasTests.Multiline_Program_PenTest
+  fullName: BOOSEapp.MyArray.Execute
+  nameWithType: MyArray.Execute
+- uid: BOOSEapp.MyArray.TryGetIntArray(System.String,System.Int32[]@)
+  name: TryGetIntArray(string, out int[])
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_TryGetIntArray_System_String_System_Int32____
+  commentId: M:BOOSEapp.MyArray.TryGetIntArray(System.String,System.Int32[]@)
+  name.vb: TryGetIntArray(String, Integer())
+  fullName: BOOSEapp.MyArray.TryGetIntArray(string, out int[])
+  fullName.vb: BOOSEapp.MyArray.TryGetIntArray(String, Integer())
+  nameWithType: MyArray.TryGetIntArray(string, out int[])
+  nameWithType.vb: MyArray.TryGetIntArray(String, Integer())
+- uid: BOOSEapp.MyArray.TryGetIntArray*
+  name: TryGetIntArray
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_TryGetIntArray_
+  commentId: Overload:BOOSEapp.MyArray.TryGetIntArray
   isSpec: "True"
-  fullName: BooseTest.AppCanvasTests.Multiline_Program_PenTest
-  nameWithType: AppCanvasTests.Multiline_Program_PenTest
-- uid: BooseTest.AppCanvasTests.RectDrawsSomething
-  name: RectDrawsSomething()
-  href: api/BooseTest.AppCanvasTests.html#BooseTest_AppCanvasTests_RectDrawsSomething
-  commentId: M:BooseTest.AppCanvasTests.RectDrawsSomething
-  fullName: BooseTest.AppCanvasTests.RectDrawsSomething()
-  nameWithType: AppCanvasTests.RectDrawsSomething()
-- uid: BooseTest.AppCanvasTests.RectDrawsSomething*
-  name: RectDrawsSomething
-  href: api/BooseTest.AppCanvasTests.html#BooseTest_AppCanvasTests_RectDrawsSomething_
-  commentId: Overload:BooseTest.AppCanvasTests.RectDrawsSomething
+  fullName: BOOSEapp.MyArray.TryGetIntArray
+  nameWithType: MyArray.TryGetIntArray
+- uid: BOOSEapp.MyArray.TryGetRealArray(System.String,System.Double[]@)
+  name: TryGetRealArray(string, out double[])
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_TryGetRealArray_System_String_System_Double____
+  commentId: M:BOOSEapp.MyArray.TryGetRealArray(System.String,System.Double[]@)
+  name.vb: TryGetRealArray(String, Double())
+  fullName: BOOSEapp.MyArray.TryGetRealArray(string, out double[])
+  fullName.vb: BOOSEapp.MyArray.TryGetRealArray(String, Double())
+  nameWithType: MyArray.TryGetRealArray(string, out double[])
+  nameWithType.vb: MyArray.TryGetRealArray(String, Double())
+- uid: BOOSEapp.MyArray.TryGetRealArray*
+  name: TryGetRealArray
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_TryGetRealArray_
+  commentId: Overload:BOOSEapp.MyArray.TryGetRealArray
   isSpec: "True"
-  fullName: BooseTest.AppCanvasTests.RectDrawsSomething
-  nameWithType: AppCanvasTests.RectDrawsSomething
-- uid: BooseTest.AppCanvasTests.Rect_Filled_Fills
-  name: Rect_Filled_Fills()
-  href: api/BooseTest.AppCanvasTests.html#BooseTest_AppCanvasTests_Rect_Filled_Fills
-  commentId: M:BooseTest.AppCanvasTests.Rect_Filled_Fills
-  fullName: BooseTest.AppCanvasTests.Rect_Filled_Fills()
-  nameWithType: AppCanvasTests.Rect_Filled_Fills()
-- uid: BooseTest.AppCanvasTests.Rect_Filled_Fills*
-  name: Rect_Filled_Fills
-  href: api/BooseTest.AppCanvasTests.html#BooseTest_AppCanvasTests_Rect_Filled_Fills_
-  commentId: Overload:BooseTest.AppCanvasTests.Rect_Filled_Fills
+  fullName: BOOSEapp.MyArray.TryGetRealArray
+  nameWithType: MyArray.TryGetRealArray
+- uid: BOOSEapp.MyArray.TryGetRealElement(System.String,System.Int32,System.Double@)
+  name: TryGetRealElement(string, int, out double)
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_TryGetRealElement_System_String_System_Int32_System_Double__
+  commentId: M:BOOSEapp.MyArray.TryGetRealElement(System.String,System.Int32,System.Double@)
+  name.vb: TryGetRealElement(String, Integer, Double)
+  fullName: BOOSEapp.MyArray.TryGetRealElement(string, int, out double)
+  fullName.vb: BOOSEapp.MyArray.TryGetRealElement(String, Integer, Double)
+  nameWithType: MyArray.TryGetRealElement(string, int, out double)
+  nameWithType.vb: MyArray.TryGetRealElement(String, Integer, Double)
+- uid: BOOSEapp.MyArray.TryGetRealElement*
+  name: TryGetRealElement
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_TryGetRealElement_
+  commentId: Overload:BOOSEapp.MyArray.TryGetRealElement
   isSpec: "True"
-  fullName: BooseTest.AppCanvasTests.Rect_Filled_Fills
-  nameWithType: AppCanvasTests.Rect_Filled_Fills
+  fullName: BOOSEapp.MyArray.TryGetRealElement
+  nameWithType: MyArray.TryGetRealElement
+- uid: BOOSEapp.MyArray.TrySetIntElement(System.String,System.Int32,System.Int32)
+  name: TrySetIntElement(string, int, int)
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_TrySetIntElement_System_String_System_Int32_System_Int32_
+  commentId: M:BOOSEapp.MyArray.TrySetIntElement(System.String,System.Int32,System.Int32)
+  name.vb: TrySetIntElement(String, Integer, Integer)
+  fullName: BOOSEapp.MyArray.TrySetIntElement(string, int, int)
+  fullName.vb: BOOSEapp.MyArray.TrySetIntElement(String, Integer, Integer)
+  nameWithType: MyArray.TrySetIntElement(string, int, int)
+  nameWithType.vb: MyArray.TrySetIntElement(String, Integer, Integer)
+- uid: BOOSEapp.MyArray.TrySetIntElement*
+  name: TrySetIntElement
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_TrySetIntElement_
+  commentId: Overload:BOOSEapp.MyArray.TrySetIntElement
+  isSpec: "True"
+  fullName: BOOSEapp.MyArray.TrySetIntElement
+  nameWithType: MyArray.TrySetIntElement
+- uid: BOOSEapp.MyArray.TrySetRealElement(System.String,System.Int32,System.Double)
+  name: TrySetRealElement(string, int, double)
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_TrySetRealElement_System_String_System_Int32_System_Double_
+  commentId: M:BOOSEapp.MyArray.TrySetRealElement(System.String,System.Int32,System.Double)
+  name.vb: TrySetRealElement(String, Integer, Double)
+  fullName: BOOSEapp.MyArray.TrySetRealElement(string, int, double)
+  fullName.vb: BOOSEapp.MyArray.TrySetRealElement(String, Integer, Double)
+  nameWithType: MyArray.TrySetRealElement(string, int, double)
+  nameWithType.vb: MyArray.TrySetRealElement(String, Integer, Double)
+- uid: BOOSEapp.MyArray.TrySetRealElement*
+  name: TrySetRealElement
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_TrySetRealElement_
+  commentId: Overload:BOOSEapp.MyArray.TrySetRealElement
+  isSpec: "True"
+  fullName: BOOSEapp.MyArray.TrySetRealElement
+  nameWithType: MyArray.TrySetRealElement
+- uid: BOOSEapp.MyArray.arrayName
+  name: arrayName
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_arrayName
+  commentId: F:BOOSEapp.MyArray.arrayName
+  fullName: BOOSEapp.MyArray.arrayName
+  nameWithType: MyArray.arrayName
+- uid: BOOSEapp.MyArray.arrayType
+  name: arrayType
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_arrayType
+  commentId: F:BOOSEapp.MyArray.arrayType
+  fullName: BOOSEapp.MyArray.arrayType
+  nameWithType: MyArray.arrayType
+- uid: BOOSEapp.MyArray.intArrays
+  name: intArrays
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_intArrays
+  commentId: F:BOOSEapp.MyArray.intArrays
+  fullName: BOOSEapp.MyArray.intArrays
+  nameWithType: MyArray.intArrays
+- uid: BOOSEapp.MyArray.realArrays
+  name: realArrays
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_realArrays
+  commentId: F:BOOSEapp.MyArray.realArrays
+  fullName: BOOSEapp.MyArray.realArrays
+  nameWithType: MyArray.realArrays
+- uid: BOOSEapp.MyArray.size
+  name: size
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_size
+  commentId: F:BOOSEapp.MyArray.size
+  fullName: BOOSEapp.MyArray.size
+  nameWithType: MyArray.size
+- uid: BOOSEapp.MyArray.tryGetIntElement(System.String,System.Int32,System.Int32@)
+  name: tryGetIntElement(string, int, out int)
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_tryGetIntElement_System_String_System_Int32_System_Int32__
+  commentId: M:BOOSEapp.MyArray.tryGetIntElement(System.String,System.Int32,System.Int32@)
+  name.vb: tryGetIntElement(String, Integer, Integer)
+  fullName: BOOSEapp.MyArray.tryGetIntElement(string, int, out int)
+  fullName.vb: BOOSEapp.MyArray.tryGetIntElement(String, Integer, Integer)
+  nameWithType: MyArray.tryGetIntElement(string, int, out int)
+  nameWithType.vb: MyArray.tryGetIntElement(String, Integer, Integer)
+- uid: BOOSEapp.MyArray.tryGetIntElement*
+  name: tryGetIntElement
+  href: api/BOOSEapp.MyArray.html#BOOSEapp_MyArray_tryGetIntElement_
+  commentId: Overload:BOOSEapp.MyArray.tryGetIntElement
+  isSpec: "True"
+  fullName: BOOSEapp.MyArray.tryGetIntElement
+  nameWithType: MyArray.tryGetIntElement
+- uid: BOOSEapp.MyBool
+  name: MyBool
+  href: api/BOOSEapp.MyBool.html
+  commentId: T:BOOSEapp.MyBool
+  fullName: BOOSEapp.MyBool
+  nameWithType: MyBool
+- uid: BOOSEapp.MyBool.#ctor
+  name: MyBool()
+  href: api/BOOSEapp.MyBool.html#BOOSEapp_MyBool__ctor
+  commentId: M:BOOSEapp.MyBool.#ctor
+  name.vb: New()
+  fullName: BOOSEapp.MyBool.MyBool()
+  fullName.vb: BOOSEapp.MyBool.New()
+  nameWithType: MyBool.MyBool()
+  nameWithType.vb: MyBool.New()
+- uid: BOOSEapp.MyBool.#ctor*
+  name: MyBool
+  href: api/BOOSEapp.MyBool.html#BOOSEapp_MyBool__ctor_
+  commentId: Overload:BOOSEapp.MyBool.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSEapp.MyBool.MyBool
+  fullName.vb: BOOSEapp.MyBool.New
+  nameWithType: MyBool.MyBool
+  nameWithType.vb: MyBool.New
+- uid: BOOSEapp.MyBool.Add(System.String,System.Boolean)
+  name: Add(string, bool)
+  href: api/BOOSEapp.MyBool.html#BOOSEapp_MyBool_Add_System_String_System_Boolean_
+  commentId: M:BOOSEapp.MyBool.Add(System.String,System.Boolean)
+  name.vb: Add(String, Boolean)
+  fullName: BOOSEapp.MyBool.Add(string, bool)
+  fullName.vb: BOOSEapp.MyBool.Add(String, Boolean)
+  nameWithType: MyBool.Add(string, bool)
+  nameWithType.vb: MyBool.Add(String, Boolean)
+- uid: BOOSEapp.MyBool.Add*
+  name: Add
+  href: api/BOOSEapp.MyBool.html#BOOSEapp_MyBool_Add_
+  commentId: Overload:BOOSEapp.MyBool.Add
+  isSpec: "True"
+  fullName: BOOSEapp.MyBool.Add
+  nameWithType: MyBool.Add
+- uid: BOOSEapp.MyBool.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/BOOSEapp.MyBool.html#BOOSEapp_MyBool_CheckParameters_System_String___
+  commentId: M:BOOSEapp.MyBool.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: BOOSEapp.MyBool.CheckParameters(string[])
+  fullName.vb: BOOSEapp.MyBool.CheckParameters(String())
+  nameWithType: MyBool.CheckParameters(string[])
+  nameWithType.vb: MyBool.CheckParameters(String())
+- uid: BOOSEapp.MyBool.CheckParameters*
+  name: CheckParameters
+  href: api/BOOSEapp.MyBool.html#BOOSEapp_MyBool_CheckParameters_
+  commentId: Overload:BOOSEapp.MyBool.CheckParameters
+  isSpec: "True"
+  fullName: BOOSEapp.MyBool.CheckParameters
+  nameWithType: MyBool.CheckParameters
+- uid: BOOSEapp.MyBool.Execute
+  name: Execute()
+  href: api/BOOSEapp.MyBool.html#BOOSEapp_MyBool_Execute
+  commentId: M:BOOSEapp.MyBool.Execute
+  fullName: BOOSEapp.MyBool.Execute()
+  nameWithType: MyBool.Execute()
+- uid: BOOSEapp.MyBool.Execute*
+  name: Execute
+  href: api/BOOSEapp.MyBool.html#BOOSEapp_MyBool_Execute_
+  commentId: Overload:BOOSEapp.MyBool.Execute
+  isSpec: "True"
+  fullName: BOOSEapp.MyBool.Execute
+  nameWithType: MyBool.Execute
+- uid: BOOSEapp.MyBool.Set(BOOSE.StoredProgram,System.String)
+  name: Set(StoredProgram, string)
+  href: api/BOOSEapp.MyBool.html#BOOSEapp_MyBool_Set_BOOSE_StoredProgram_System_String_
+  commentId: M:BOOSEapp.MyBool.Set(BOOSE.StoredProgram,System.String)
+  name.vb: Set(StoredProgram, String)
+  fullName: BOOSEapp.MyBool.Set(BOOSE.StoredProgram, string)
+  fullName.vb: BOOSEapp.MyBool.Set(BOOSE.StoredProgram, String)
+  nameWithType: MyBool.Set(StoredProgram, string)
+  nameWithType.vb: MyBool.Set(StoredProgram, String)
+- uid: BOOSEapp.MyBool.Set*
+  name: Set
+  href: api/BOOSEapp.MyBool.html#BOOSEapp_MyBool_Set_
+  commentId: Overload:BOOSEapp.MyBool.Set
+  isSpec: "True"
+  fullName: BOOSEapp.MyBool.Set
+  nameWithType: MyBool.Set
+- uid: BOOSEapp.MyBool.TryGetValue(System.String,System.Boolean@)
+  name: TryGetValue(string, out bool)
+  href: api/BOOSEapp.MyBool.html#BOOSEapp_MyBool_TryGetValue_System_String_System_Boolean__
+  commentId: M:BOOSEapp.MyBool.TryGetValue(System.String,System.Boolean@)
+  name.vb: TryGetValue(String, Boolean)
+  fullName: BOOSEapp.MyBool.TryGetValue(string, out bool)
+  fullName.vb: BOOSEapp.MyBool.TryGetValue(String, Boolean)
+  nameWithType: MyBool.TryGetValue(string, out bool)
+  nameWithType.vb: MyBool.TryGetValue(String, Boolean)
+- uid: BOOSEapp.MyBool.TryGetValue*
+  name: TryGetValue
+  href: api/BOOSEapp.MyBool.html#BOOSEapp_MyBool_TryGetValue_
+  commentId: Overload:BOOSEapp.MyBool.TryGetValue
+  isSpec: "True"
+  fullName: BOOSEapp.MyBool.TryGetValue
+  nameWithType: MyBool.TryGetValue
+- uid: BOOSEapp.MyBool.TryResolveExpression(System.String,System.Boolean@)
+  name: TryResolveExpression(string, out bool)
+  href: api/BOOSEapp.MyBool.html#BOOSEapp_MyBool_TryResolveExpression_System_String_System_Boolean__
+  commentId: M:BOOSEapp.MyBool.TryResolveExpression(System.String,System.Boolean@)
+  name.vb: TryResolveExpression(String, Boolean)
+  fullName: BOOSEapp.MyBool.TryResolveExpression(string, out bool)
+  fullName.vb: BOOSEapp.MyBool.TryResolveExpression(String, Boolean)
+  nameWithType: MyBool.TryResolveExpression(string, out bool)
+  nameWithType.vb: MyBool.TryResolveExpression(String, Boolean)
+- uid: BOOSEapp.MyBool.TryResolveExpression*
+  name: TryResolveExpression
+  href: api/BOOSEapp.MyBool.html#BOOSEapp_MyBool_TryResolveExpression_
+  commentId: Overload:BOOSEapp.MyBool.TryResolveExpression
+  isSpec: "True"
+  fullName: BOOSEapp.MyBool.TryResolveExpression
+  nameWithType: MyBool.TryResolveExpression
+- uid: BOOSEapp.MyBool.TryResolveValue(System.String,System.Boolean@)
+  name: TryResolveValue(string, out bool)
+  href: api/BOOSEapp.MyBool.html#BOOSEapp_MyBool_TryResolveValue_System_String_System_Boolean__
+  commentId: M:BOOSEapp.MyBool.TryResolveValue(System.String,System.Boolean@)
+  name.vb: TryResolveValue(String, Boolean)
+  fullName: BOOSEapp.MyBool.TryResolveValue(string, out bool)
+  fullName.vb: BOOSEapp.MyBool.TryResolveValue(String, Boolean)
+  nameWithType: MyBool.TryResolveValue(string, out bool)
+  nameWithType.vb: MyBool.TryResolveValue(String, Boolean)
+- uid: BOOSEapp.MyBool.TryResolveValue*
+  name: TryResolveValue
+  href: api/BOOSEapp.MyBool.html#BOOSEapp_MyBool_TryResolveValue_
+  commentId: Overload:BOOSEapp.MyBool.TryResolveValue
+  isSpec: "True"
+  fullName: BOOSEapp.MyBool.TryResolveValue
+  nameWithType: MyBool.TryResolveValue
+- uid: BOOSEapp.MyBool.expression
+  name: expression
+  href: api/BOOSEapp.MyBool.html#BOOSEapp_MyBool_expression
+  commentId: F:BOOSEapp.MyBool.expression
+  fullName: BOOSEapp.MyBool.expression
+  nameWithType: MyBool.expression
+- uid: BOOSEapp.MyBool.variableName
+  name: variableName
+  href: api/BOOSEapp.MyBool.html#BOOSEapp_MyBool_variableName
+  commentId: F:BOOSEapp.MyBool.variableName
+  fullName: BOOSEapp.MyBool.variableName
+  nameWithType: MyBool.variableName
+- uid: BOOSEapp.MyBool.variableVal
+  name: variableVal
+  href: api/BOOSEapp.MyBool.html#BOOSEapp_MyBool_variableVal
+  commentId: F:BOOSEapp.MyBool.variableVal
+  fullName: BOOSEapp.MyBool.variableVal
+  nameWithType: MyBool.variableVal
+- uid: BOOSEapp.MyCanvasOps
+  name: MyCanvasOps
+  href: api/BOOSEapp.MyCanvasOps.html
+  commentId: T:BOOSEapp.MyCanvasOps
+  fullName: BOOSEapp.MyCanvasOps
+  nameWithType: MyCanvasOps
+- uid: BOOSEapp.MyCanvasOps.Circle(System.Int32,System.Boolean)
+  name: Circle(int, bool)
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_Circle_System_Int32_System_Boolean_
+  commentId: M:BOOSEapp.MyCanvasOps.Circle(System.Int32,System.Boolean)
+  name.vb: Circle(Integer, Boolean)
+  fullName: BOOSEapp.MyCanvasOps.Circle(int, bool)
+  fullName.vb: BOOSEapp.MyCanvasOps.Circle(Integer, Boolean)
+  nameWithType: MyCanvasOps.Circle(int, bool)
+  nameWithType.vb: MyCanvasOps.Circle(Integer, Boolean)
+- uid: BOOSEapp.MyCanvasOps.Circle*
+  name: Circle
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_Circle_
+  commentId: Overload:BOOSEapp.MyCanvasOps.Circle
+  isSpec: "True"
+  fullName: BOOSEapp.MyCanvasOps.Circle
+  nameWithType: MyCanvasOps.Circle
+- uid: BOOSEapp.MyCanvasOps.Clear
+  name: Clear()
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_Clear
+  commentId: M:BOOSEapp.MyCanvasOps.Clear
+  fullName: BOOSEapp.MyCanvasOps.Clear()
+  nameWithType: MyCanvasOps.Clear()
+- uid: BOOSEapp.MyCanvasOps.Clear*
+  name: Clear
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_Clear_
+  commentId: Overload:BOOSEapp.MyCanvasOps.Clear
+  isSpec: "True"
+  fullName: BOOSEapp.MyCanvasOps.Clear
+  nameWithType: MyCanvasOps.Clear
+- uid: BOOSEapp.MyCanvasOps.DrawTo(System.Int32,System.Int32)
+  name: DrawTo(int, int)
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_DrawTo_System_Int32_System_Int32_
+  commentId: M:BOOSEapp.MyCanvasOps.DrawTo(System.Int32,System.Int32)
+  name.vb: DrawTo(Integer, Integer)
+  fullName: BOOSEapp.MyCanvasOps.DrawTo(int, int)
+  fullName.vb: BOOSEapp.MyCanvasOps.DrawTo(Integer, Integer)
+  nameWithType: MyCanvasOps.DrawTo(int, int)
+  nameWithType.vb: MyCanvasOps.DrawTo(Integer, Integer)
+- uid: BOOSEapp.MyCanvasOps.DrawTo*
+  name: DrawTo
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_DrawTo_
+  commentId: Overload:BOOSEapp.MyCanvasOps.DrawTo
+  isSpec: "True"
+  fullName: BOOSEapp.MyCanvasOps.DrawTo
+  nameWithType: MyCanvasOps.DrawTo
+- uid: BOOSEapp.MyCanvasOps.MoveTo(System.Int32,System.Int32)
+  name: MoveTo(int, int)
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_MoveTo_System_Int32_System_Int32_
+  commentId: M:BOOSEapp.MyCanvasOps.MoveTo(System.Int32,System.Int32)
+  name.vb: MoveTo(Integer, Integer)
+  fullName: BOOSEapp.MyCanvasOps.MoveTo(int, int)
+  fullName.vb: BOOSEapp.MyCanvasOps.MoveTo(Integer, Integer)
+  nameWithType: MyCanvasOps.MoveTo(int, int)
+  nameWithType.vb: MyCanvasOps.MoveTo(Integer, Integer)
+- uid: BOOSEapp.MyCanvasOps.MoveTo*
+  name: MoveTo
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_MoveTo_
+  commentId: Overload:BOOSEapp.MyCanvasOps.MoveTo
+  isSpec: "True"
+  fullName: BOOSEapp.MyCanvasOps.MoveTo
+  nameWithType: MyCanvasOps.MoveTo
+- uid: BOOSEapp.MyCanvasOps.PenColour
+  name: PenColour
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_PenColour
+  commentId: P:BOOSEapp.MyCanvasOps.PenColour
+  fullName: BOOSEapp.MyCanvasOps.PenColour
+  nameWithType: MyCanvasOps.PenColour
+- uid: BOOSEapp.MyCanvasOps.PenColour*
+  name: PenColour
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_PenColour_
+  commentId: Overload:BOOSEapp.MyCanvasOps.PenColour
+  isSpec: "True"
+  fullName: BOOSEapp.MyCanvasOps.PenColour
+  nameWithType: MyCanvasOps.PenColour
+- uid: BOOSEapp.MyCanvasOps.Rect(System.Int32,System.Int32,System.Boolean)
+  name: Rect(int, int, bool)
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_Rect_System_Int32_System_Int32_System_Boolean_
+  commentId: M:BOOSEapp.MyCanvasOps.Rect(System.Int32,System.Int32,System.Boolean)
+  name.vb: Rect(Integer, Integer, Boolean)
+  fullName: BOOSEapp.MyCanvasOps.Rect(int, int, bool)
+  fullName.vb: BOOSEapp.MyCanvasOps.Rect(Integer, Integer, Boolean)
+  nameWithType: MyCanvasOps.Rect(int, int, bool)
+  nameWithType.vb: MyCanvasOps.Rect(Integer, Integer, Boolean)
+- uid: BOOSEapp.MyCanvasOps.Rect*
+  name: Rect
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_Rect_
+  commentId: Overload:BOOSEapp.MyCanvasOps.Rect
+  isSpec: "True"
+  fullName: BOOSEapp.MyCanvasOps.Rect
+  nameWithType: MyCanvasOps.Rect
+- uid: BOOSEapp.MyCanvasOps.Reset
+  name: Reset()
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_Reset
+  commentId: M:BOOSEapp.MyCanvasOps.Reset
+  fullName: BOOSEapp.MyCanvasOps.Reset()
+  nameWithType: MyCanvasOps.Reset()
+- uid: BOOSEapp.MyCanvasOps.Reset*
+  name: Reset
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_Reset_
+  commentId: Overload:BOOSEapp.MyCanvasOps.Reset
+  isSpec: "True"
+  fullName: BOOSEapp.MyCanvasOps.Reset
+  nameWithType: MyCanvasOps.Reset
+- uid: BOOSEapp.MyCanvasOps.Set(System.Int32,System.Int32)
+  name: Set(int, int)
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_Set_System_Int32_System_Int32_
+  commentId: M:BOOSEapp.MyCanvasOps.Set(System.Int32,System.Int32)
+  name.vb: Set(Integer, Integer)
+  fullName: BOOSEapp.MyCanvasOps.Set(int, int)
+  fullName.vb: BOOSEapp.MyCanvasOps.Set(Integer, Integer)
+  nameWithType: MyCanvasOps.Set(int, int)
+  nameWithType.vb: MyCanvasOps.Set(Integer, Integer)
+- uid: BOOSEapp.MyCanvasOps.Set*
+  name: Set
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_Set_
+  commentId: Overload:BOOSEapp.MyCanvasOps.Set
+  isSpec: "True"
+  fullName: BOOSEapp.MyCanvasOps.Set
+  nameWithType: MyCanvasOps.Set
+- uid: BOOSEapp.MyCanvasOps.SetColour(System.Int32,System.Int32,System.Int32)
+  name: SetColour(int, int, int)
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_SetColour_System_Int32_System_Int32_System_Int32_
+  commentId: M:BOOSEapp.MyCanvasOps.SetColour(System.Int32,System.Int32,System.Int32)
+  name.vb: SetColour(Integer, Integer, Integer)
+  fullName: BOOSEapp.MyCanvasOps.SetColour(int, int, int)
+  fullName.vb: BOOSEapp.MyCanvasOps.SetColour(Integer, Integer, Integer)
+  nameWithType: MyCanvasOps.SetColour(int, int, int)
+  nameWithType.vb: MyCanvasOps.SetColour(Integer, Integer, Integer)
+- uid: BOOSEapp.MyCanvasOps.SetColour*
+  name: SetColour
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_SetColour_
+  commentId: Overload:BOOSEapp.MyCanvasOps.SetColour
+  isSpec: "True"
+  fullName: BOOSEapp.MyCanvasOps.SetColour
+  nameWithType: MyCanvasOps.SetColour
+- uid: BOOSEapp.MyCanvasOps.Tri(System.Int32,System.Int32)
+  name: Tri(int, int)
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_Tri_System_Int32_System_Int32_
+  commentId: M:BOOSEapp.MyCanvasOps.Tri(System.Int32,System.Int32)
+  name.vb: Tri(Integer, Integer)
+  fullName: BOOSEapp.MyCanvasOps.Tri(int, int)
+  fullName.vb: BOOSEapp.MyCanvasOps.Tri(Integer, Integer)
+  nameWithType: MyCanvasOps.Tri(int, int)
+  nameWithType.vb: MyCanvasOps.Tri(Integer, Integer)
+- uid: BOOSEapp.MyCanvasOps.Tri*
+  name: Tri
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_Tri_
+  commentId: Overload:BOOSEapp.MyCanvasOps.Tri
+  isSpec: "True"
+  fullName: BOOSEapp.MyCanvasOps.Tri
+  nameWithType: MyCanvasOps.Tri
+- uid: BOOSEapp.MyCanvasOps.WriteText(System.String)
+  name: WriteText(string)
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_WriteText_System_String_
+  commentId: M:BOOSEapp.MyCanvasOps.WriteText(System.String)
+  name.vb: WriteText(String)
+  fullName: BOOSEapp.MyCanvasOps.WriteText(string)
+  fullName.vb: BOOSEapp.MyCanvasOps.WriteText(String)
+  nameWithType: MyCanvasOps.WriteText(string)
+  nameWithType.vb: MyCanvasOps.WriteText(String)
+- uid: BOOSEapp.MyCanvasOps.WriteText*
+  name: WriteText
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_WriteText_
+  commentId: Overload:BOOSEapp.MyCanvasOps.WriteText
+  isSpec: "True"
+  fullName: BOOSEapp.MyCanvasOps.WriteText
+  nameWithType: MyCanvasOps.WriteText
+- uid: BOOSEapp.MyCanvasOps.Xpos
+  name: Xpos
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_Xpos
+  commentId: P:BOOSEapp.MyCanvasOps.Xpos
+  fullName: BOOSEapp.MyCanvasOps.Xpos
+  nameWithType: MyCanvasOps.Xpos
+- uid: BOOSEapp.MyCanvasOps.Xpos*
+  name: Xpos
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_Xpos_
+  commentId: Overload:BOOSEapp.MyCanvasOps.Xpos
+  isSpec: "True"
+  fullName: BOOSEapp.MyCanvasOps.Xpos
+  nameWithType: MyCanvasOps.Xpos
+- uid: BOOSEapp.MyCanvasOps.Ypos
+  name: Ypos
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_Ypos
+  commentId: P:BOOSEapp.MyCanvasOps.Ypos
+  fullName: BOOSEapp.MyCanvasOps.Ypos
+  nameWithType: MyCanvasOps.Ypos
+- uid: BOOSEapp.MyCanvasOps.Ypos*
+  name: Ypos
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_Ypos_
+  commentId: Overload:BOOSEapp.MyCanvasOps.Ypos
+  isSpec: "True"
+  fullName: BOOSEapp.MyCanvasOps.Ypos
+  nameWithType: MyCanvasOps.Ypos
+- uid: BOOSEapp.MyCanvasOps.getBitmap
+  name: getBitmap()
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_getBitmap
+  commentId: M:BOOSEapp.MyCanvasOps.getBitmap
+  fullName: BOOSEapp.MyCanvasOps.getBitmap()
+  nameWithType: MyCanvasOps.getBitmap()
+- uid: BOOSEapp.MyCanvasOps.getBitmap*
+  name: getBitmap
+  href: api/BOOSEapp.MyCanvasOps.html#BOOSEapp_MyCanvasOps_getBitmap_
+  commentId: Overload:BOOSEapp.MyCanvasOps.getBitmap
+  isSpec: "True"
+  fullName: BOOSEapp.MyCanvasOps.getBitmap
+  nameWithType: MyCanvasOps.getBitmap
+- uid: BOOSEapp.MyCircle
+  name: MyCircle
+  href: api/BOOSEapp.MyCircle.html
+  commentId: T:BOOSEapp.MyCircle
+  fullName: BOOSEapp.MyCircle
+  nameWithType: MyCircle
+- uid: BOOSEapp.MyCircle.#ctor(BOOSEapp.MyCanvasOps)
+  name: MyCircle(MyCanvasOps)
+  href: api/BOOSEapp.MyCircle.html#BOOSEapp_MyCircle__ctor_BOOSEapp_MyCanvasOps_
+  commentId: M:BOOSEapp.MyCircle.#ctor(BOOSEapp.MyCanvasOps)
+  name.vb: New(MyCanvasOps)
+  fullName: BOOSEapp.MyCircle.MyCircle(BOOSEapp.MyCanvasOps)
+  fullName.vb: BOOSEapp.MyCircle.New(BOOSEapp.MyCanvasOps)
+  nameWithType: MyCircle.MyCircle(MyCanvasOps)
+  nameWithType.vb: MyCircle.New(MyCanvasOps)
+- uid: BOOSEapp.MyCircle.#ctor*
+  name: MyCircle
+  href: api/BOOSEapp.MyCircle.html#BOOSEapp_MyCircle__ctor_
+  commentId: Overload:BOOSEapp.MyCircle.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSEapp.MyCircle.MyCircle
+  fullName.vb: BOOSEapp.MyCircle.New
+  nameWithType: MyCircle.MyCircle
+  nameWithType.vb: MyCircle.New
+- uid: BOOSEapp.MyCircle.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/BOOSEapp.MyCircle.html#BOOSEapp_MyCircle_CheckParameters_System_String___
+  commentId: M:BOOSEapp.MyCircle.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: BOOSEapp.MyCircle.CheckParameters(string[])
+  fullName.vb: BOOSEapp.MyCircle.CheckParameters(String())
+  nameWithType: MyCircle.CheckParameters(string[])
+  nameWithType.vb: MyCircle.CheckParameters(String())
+- uid: BOOSEapp.MyCircle.CheckParameters*
+  name: CheckParameters
+  href: api/BOOSEapp.MyCircle.html#BOOSEapp_MyCircle_CheckParameters_
+  commentId: Overload:BOOSEapp.MyCircle.CheckParameters
+  isSpec: "True"
+  fullName: BOOSEapp.MyCircle.CheckParameters
+  nameWithType: MyCircle.CheckParameters
+- uid: BOOSEapp.MyCircle.Execute
+  name: Execute()
+  href: api/BOOSEapp.MyCircle.html#BOOSEapp_MyCircle_Execute
+  commentId: M:BOOSEapp.MyCircle.Execute
+  fullName: BOOSEapp.MyCircle.Execute()
+  nameWithType: MyCircle.Execute()
+- uid: BOOSEapp.MyCircle.Execute*
+  name: Execute
+  href: api/BOOSEapp.MyCircle.html#BOOSEapp_MyCircle_Execute_
+  commentId: Overload:BOOSEapp.MyCircle.Execute
+  isSpec: "True"
+  fullName: BOOSEapp.MyCircle.Execute
+  nameWithType: MyCircle.Execute
+- uid: BOOSEapp.MyDrawTo
+  name: MyDrawTo
+  href: api/BOOSEapp.MyDrawTo.html
+  commentId: T:BOOSEapp.MyDrawTo
+  fullName: BOOSEapp.MyDrawTo
+  nameWithType: MyDrawTo
+- uid: BOOSEapp.MyDrawTo.#ctor(BOOSEapp.MyCanvasOps)
+  name: MyDrawTo(MyCanvasOps)
+  href: api/BOOSEapp.MyDrawTo.html#BOOSEapp_MyDrawTo__ctor_BOOSEapp_MyCanvasOps_
+  commentId: M:BOOSEapp.MyDrawTo.#ctor(BOOSEapp.MyCanvasOps)
+  name.vb: New(MyCanvasOps)
+  fullName: BOOSEapp.MyDrawTo.MyDrawTo(BOOSEapp.MyCanvasOps)
+  fullName.vb: BOOSEapp.MyDrawTo.New(BOOSEapp.MyCanvasOps)
+  nameWithType: MyDrawTo.MyDrawTo(MyCanvasOps)
+  nameWithType.vb: MyDrawTo.New(MyCanvasOps)
+- uid: BOOSEapp.MyDrawTo.#ctor*
+  name: MyDrawTo
+  href: api/BOOSEapp.MyDrawTo.html#BOOSEapp_MyDrawTo__ctor_
+  commentId: Overload:BOOSEapp.MyDrawTo.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSEapp.MyDrawTo.MyDrawTo
+  fullName.vb: BOOSEapp.MyDrawTo.New
+  nameWithType: MyDrawTo.MyDrawTo
+  nameWithType.vb: MyDrawTo.New
+- uid: BOOSEapp.MyDrawTo.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/BOOSEapp.MyDrawTo.html#BOOSEapp_MyDrawTo_CheckParameters_System_String___
+  commentId: M:BOOSEapp.MyDrawTo.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: BOOSEapp.MyDrawTo.CheckParameters(string[])
+  fullName.vb: BOOSEapp.MyDrawTo.CheckParameters(String())
+  nameWithType: MyDrawTo.CheckParameters(string[])
+  nameWithType.vb: MyDrawTo.CheckParameters(String())
+- uid: BOOSEapp.MyDrawTo.CheckParameters*
+  name: CheckParameters
+  href: api/BOOSEapp.MyDrawTo.html#BOOSEapp_MyDrawTo_CheckParameters_
+  commentId: Overload:BOOSEapp.MyDrawTo.CheckParameters
+  isSpec: "True"
+  fullName: BOOSEapp.MyDrawTo.CheckParameters
+  nameWithType: MyDrawTo.CheckParameters
+- uid: BOOSEapp.MyDrawTo.Execute
+  name: Execute()
+  href: api/BOOSEapp.MyDrawTo.html#BOOSEapp_MyDrawTo_Execute
+  commentId: M:BOOSEapp.MyDrawTo.Execute
+  fullName: BOOSEapp.MyDrawTo.Execute()
+  nameWithType: MyDrawTo.Execute()
+- uid: BOOSEapp.MyDrawTo.Execute*
+  name: Execute
+  href: api/BOOSEapp.MyDrawTo.html#BOOSEapp_MyDrawTo_Execute_
+  commentId: Overload:BOOSEapp.MyDrawTo.Execute
+  isSpec: "True"
+  fullName: BOOSEapp.MyDrawTo.Execute
+  nameWithType: MyDrawTo.Execute
+- uid: BOOSEapp.MyEvaluation
+  name: MyEvaluation
+  href: api/BOOSEapp.MyEvaluation.html
+  commentId: T:BOOSEapp.MyEvaluation
+  fullName: BOOSEapp.MyEvaluation
+  nameWithType: MyEvaluation
+- uid: BOOSEapp.MyEvaluation.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/BOOSEapp.MyEvaluation.html#BOOSEapp_MyEvaluation_CheckParameters_System_String___
+  commentId: M:BOOSEapp.MyEvaluation.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: BOOSEapp.MyEvaluation.CheckParameters(string[])
+  fullName.vb: BOOSEapp.MyEvaluation.CheckParameters(String())
+  nameWithType: MyEvaluation.CheckParameters(string[])
+  nameWithType.vb: MyEvaluation.CheckParameters(String())
+- uid: BOOSEapp.MyEvaluation.CheckParameters*
+  name: CheckParameters
+  href: api/BOOSEapp.MyEvaluation.html#BOOSEapp_MyEvaluation_CheckParameters_
+  commentId: Overload:BOOSEapp.MyEvaluation.CheckParameters
+  isSpec: "True"
+  fullName: BOOSEapp.MyEvaluation.CheckParameters
+  nameWithType: MyEvaluation.CheckParameters
+- uid: BOOSEapp.MyEvaluation.Execute
+  name: Execute()
+  href: api/BOOSEapp.MyEvaluation.html#BOOSEapp_MyEvaluation_Execute
+  commentId: M:BOOSEapp.MyEvaluation.Execute
+  fullName: BOOSEapp.MyEvaluation.Execute()
+  nameWithType: MyEvaluation.Execute()
+- uid: BOOSEapp.MyEvaluation.Execute*
+  name: Execute
+  href: api/BOOSEapp.MyEvaluation.html#BOOSEapp_MyEvaluation_Execute_
+  commentId: Overload:BOOSEapp.MyEvaluation.Execute
+  isSpec: "True"
+  fullName: BOOSEapp.MyEvaluation.Execute
+  nameWithType: MyEvaluation.Execute
+- uid: BOOSEapp.MyInt
+  name: MyInt
+  href: api/BOOSEapp.MyInt.html
+  commentId: T:BOOSEapp.MyInt
+  fullName: BOOSEapp.MyInt
+  nameWithType: MyInt
+- uid: BOOSEapp.MyInt.#ctor
+  name: MyInt()
+  href: api/BOOSEapp.MyInt.html#BOOSEapp_MyInt__ctor
+  commentId: M:BOOSEapp.MyInt.#ctor
+  name.vb: New()
+  fullName: BOOSEapp.MyInt.MyInt()
+  fullName.vb: BOOSEapp.MyInt.New()
+  nameWithType: MyInt.MyInt()
+  nameWithType.vb: MyInt.New()
+- uid: BOOSEapp.MyInt.#ctor*
+  name: MyInt
+  href: api/BOOSEapp.MyInt.html#BOOSEapp_MyInt__ctor_
+  commentId: Overload:BOOSEapp.MyInt.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSEapp.MyInt.MyInt
+  fullName.vb: BOOSEapp.MyInt.New
+  nameWithType: MyInt.MyInt
+  nameWithType.vb: MyInt.New
+- uid: BOOSEapp.MyInt.Add(System.String,System.Int32)
+  name: Add(string, int)
+  href: api/BOOSEapp.MyInt.html#BOOSEapp_MyInt_Add_System_String_System_Int32_
+  commentId: M:BOOSEapp.MyInt.Add(System.String,System.Int32)
+  name.vb: Add(String, Integer)
+  fullName: BOOSEapp.MyInt.Add(string, int)
+  fullName.vb: BOOSEapp.MyInt.Add(String, Integer)
+  nameWithType: MyInt.Add(string, int)
+  nameWithType.vb: MyInt.Add(String, Integer)
+- uid: BOOSEapp.MyInt.Add*
+  name: Add
+  href: api/BOOSEapp.MyInt.html#BOOSEapp_MyInt_Add_
+  commentId: Overload:BOOSEapp.MyInt.Add
+  isSpec: "True"
+  fullName: BOOSEapp.MyInt.Add
+  nameWithType: MyInt.Add
+- uid: BOOSEapp.MyInt.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/BOOSEapp.MyInt.html#BOOSEapp_MyInt_CheckParameters_System_String___
+  commentId: M:BOOSEapp.MyInt.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: BOOSEapp.MyInt.CheckParameters(string[])
+  fullName.vb: BOOSEapp.MyInt.CheckParameters(String())
+  nameWithType: MyInt.CheckParameters(string[])
+  nameWithType.vb: MyInt.CheckParameters(String())
+- uid: BOOSEapp.MyInt.CheckParameters*
+  name: CheckParameters
+  href: api/BOOSEapp.MyInt.html#BOOSEapp_MyInt_CheckParameters_
+  commentId: Overload:BOOSEapp.MyInt.CheckParameters
+  isSpec: "True"
+  fullName: BOOSEapp.MyInt.CheckParameters
+  nameWithType: MyInt.CheckParameters
+- uid: BOOSEapp.MyInt.Execute
+  name: Execute()
+  href: api/BOOSEapp.MyInt.html#BOOSEapp_MyInt_Execute
+  commentId: M:BOOSEapp.MyInt.Execute
+  fullName: BOOSEapp.MyInt.Execute()
+  nameWithType: MyInt.Execute()
+- uid: BOOSEapp.MyInt.Execute*
+  name: Execute
+  href: api/BOOSEapp.MyInt.html#BOOSEapp_MyInt_Execute_
+  commentId: Overload:BOOSEapp.MyInt.Execute
+  isSpec: "True"
+  fullName: BOOSEapp.MyInt.Execute
+  nameWithType: MyInt.Execute
+- uid: BOOSEapp.MyInt.Set(BOOSE.StoredProgram,System.String)
+  name: Set(StoredProgram, string)
+  href: api/BOOSEapp.MyInt.html#BOOSEapp_MyInt_Set_BOOSE_StoredProgram_System_String_
+  commentId: M:BOOSEapp.MyInt.Set(BOOSE.StoredProgram,System.String)
+  name.vb: Set(StoredProgram, String)
+  fullName: BOOSEapp.MyInt.Set(BOOSE.StoredProgram, string)
+  fullName.vb: BOOSEapp.MyInt.Set(BOOSE.StoredProgram, String)
+  nameWithType: MyInt.Set(StoredProgram, string)
+  nameWithType.vb: MyInt.Set(StoredProgram, String)
+- uid: BOOSEapp.MyInt.Set*
+  name: Set
+  href: api/BOOSEapp.MyInt.html#BOOSEapp_MyInt_Set_
+  commentId: Overload:BOOSEapp.MyInt.Set
+  isSpec: "True"
+  fullName: BOOSEapp.MyInt.Set
+  nameWithType: MyInt.Set
+- uid: BOOSEapp.MyInt.TryGetValue(System.String,System.Int32@)
+  name: TryGetValue(string, out int)
+  href: api/BOOSEapp.MyInt.html#BOOSEapp_MyInt_TryGetValue_System_String_System_Int32__
+  commentId: M:BOOSEapp.MyInt.TryGetValue(System.String,System.Int32@)
+  name.vb: TryGetValue(String, Integer)
+  fullName: BOOSEapp.MyInt.TryGetValue(string, out int)
+  fullName.vb: BOOSEapp.MyInt.TryGetValue(String, Integer)
+  nameWithType: MyInt.TryGetValue(string, out int)
+  nameWithType.vb: MyInt.TryGetValue(String, Integer)
+- uid: BOOSEapp.MyInt.TryGetValue*
+  name: TryGetValue
+  href: api/BOOSEapp.MyInt.html#BOOSEapp_MyInt_TryGetValue_
+  commentId: Overload:BOOSEapp.MyInt.TryGetValue
+  isSpec: "True"
+  fullName: BOOSEapp.MyInt.TryGetValue
+  nameWithType: MyInt.TryGetValue
+- uid: BOOSEapp.MyInt.TryResolveExpression(System.String,System.Int32@)
+  name: TryResolveExpression(string, out int)
+  href: api/BOOSEapp.MyInt.html#BOOSEapp_MyInt_TryResolveExpression_System_String_System_Int32__
+  commentId: M:BOOSEapp.MyInt.TryResolveExpression(System.String,System.Int32@)
+  name.vb: TryResolveExpression(String, Integer)
+  fullName: BOOSEapp.MyInt.TryResolveExpression(string, out int)
+  fullName.vb: BOOSEapp.MyInt.TryResolveExpression(String, Integer)
+  nameWithType: MyInt.TryResolveExpression(string, out int)
+  nameWithType.vb: MyInt.TryResolveExpression(String, Integer)
+- uid: BOOSEapp.MyInt.TryResolveExpression*
+  name: TryResolveExpression
+  href: api/BOOSEapp.MyInt.html#BOOSEapp_MyInt_TryResolveExpression_
+  commentId: Overload:BOOSEapp.MyInt.TryResolveExpression
+  isSpec: "True"
+  fullName: BOOSEapp.MyInt.TryResolveExpression
+  nameWithType: MyInt.TryResolveExpression
+- uid: BOOSEapp.MyInt.TryResolveValue(System.String,System.Int32@)
+  name: TryResolveValue(string, out int)
+  href: api/BOOSEapp.MyInt.html#BOOSEapp_MyInt_TryResolveValue_System_String_System_Int32__
+  commentId: M:BOOSEapp.MyInt.TryResolveValue(System.String,System.Int32@)
+  name.vb: TryResolveValue(String, Integer)
+  fullName: BOOSEapp.MyInt.TryResolveValue(string, out int)
+  fullName.vb: BOOSEapp.MyInt.TryResolveValue(String, Integer)
+  nameWithType: MyInt.TryResolveValue(string, out int)
+  nameWithType.vb: MyInt.TryResolveValue(String, Integer)
+- uid: BOOSEapp.MyInt.TryResolveValue*
+  name: TryResolveValue
+  href: api/BOOSEapp.MyInt.html#BOOSEapp_MyInt_TryResolveValue_
+  commentId: Overload:BOOSEapp.MyInt.TryResolveValue
+  isSpec: "True"
+  fullName: BOOSEapp.MyInt.TryResolveValue
+  nameWithType: MyInt.TryResolveValue
+- uid: BOOSEapp.MyInt.expression
+  name: expression
+  href: api/BOOSEapp.MyInt.html#BOOSEapp_MyInt_expression
+  commentId: F:BOOSEapp.MyInt.expression
+  fullName: BOOSEapp.MyInt.expression
+  nameWithType: MyInt.expression
+- uid: BOOSEapp.MyInt.variableName
+  name: variableName
+  href: api/BOOSEapp.MyInt.html#BOOSEapp_MyInt_variableName
+  commentId: F:BOOSEapp.MyInt.variableName
+  fullName: BOOSEapp.MyInt.variableName
+  nameWithType: MyInt.variableName
+- uid: BOOSEapp.MyInt.variableNum
+  name: variableNum
+  href: api/BOOSEapp.MyInt.html#BOOSEapp_MyInt_variableNum
+  commentId: F:BOOSEapp.MyInt.variableNum
+  fullName: BOOSEapp.MyInt.variableNum
+  nameWithType: MyInt.variableNum
+- uid: BOOSEapp.MyMoveTo
+  name: MyMoveTo
+  href: api/BOOSEapp.MyMoveTo.html
+  commentId: T:BOOSEapp.MyMoveTo
+  fullName: BOOSEapp.MyMoveTo
+  nameWithType: MyMoveTo
+- uid: BOOSEapp.MyMoveTo.#ctor(BOOSEapp.MyCanvasOps)
+  name: MyMoveTo(MyCanvasOps)
+  href: api/BOOSEapp.MyMoveTo.html#BOOSEapp_MyMoveTo__ctor_BOOSEapp_MyCanvasOps_
+  commentId: M:BOOSEapp.MyMoveTo.#ctor(BOOSEapp.MyCanvasOps)
+  name.vb: New(MyCanvasOps)
+  fullName: BOOSEapp.MyMoveTo.MyMoveTo(BOOSEapp.MyCanvasOps)
+  fullName.vb: BOOSEapp.MyMoveTo.New(BOOSEapp.MyCanvasOps)
+  nameWithType: MyMoveTo.MyMoveTo(MyCanvasOps)
+  nameWithType.vb: MyMoveTo.New(MyCanvasOps)
+- uid: BOOSEapp.MyMoveTo.#ctor*
+  name: MyMoveTo
+  href: api/BOOSEapp.MyMoveTo.html#BOOSEapp_MyMoveTo__ctor_
+  commentId: Overload:BOOSEapp.MyMoveTo.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSEapp.MyMoveTo.MyMoveTo
+  fullName.vb: BOOSEapp.MyMoveTo.New
+  nameWithType: MyMoveTo.MyMoveTo
+  nameWithType.vb: MyMoveTo.New
+- uid: BOOSEapp.MyMoveTo.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/BOOSEapp.MyMoveTo.html#BOOSEapp_MyMoveTo_CheckParameters_System_String___
+  commentId: M:BOOSEapp.MyMoveTo.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: BOOSEapp.MyMoveTo.CheckParameters(string[])
+  fullName.vb: BOOSEapp.MyMoveTo.CheckParameters(String())
+  nameWithType: MyMoveTo.CheckParameters(string[])
+  nameWithType.vb: MyMoveTo.CheckParameters(String())
+- uid: BOOSEapp.MyMoveTo.CheckParameters*
+  name: CheckParameters
+  href: api/BOOSEapp.MyMoveTo.html#BOOSEapp_MyMoveTo_CheckParameters_
+  commentId: Overload:BOOSEapp.MyMoveTo.CheckParameters
+  isSpec: "True"
+  fullName: BOOSEapp.MyMoveTo.CheckParameters
+  nameWithType: MyMoveTo.CheckParameters
+- uid: BOOSEapp.MyMoveTo.Execute
+  name: Execute()
+  href: api/BOOSEapp.MyMoveTo.html#BOOSEapp_MyMoveTo_Execute
+  commentId: M:BOOSEapp.MyMoveTo.Execute
+  fullName: BOOSEapp.MyMoveTo.Execute()
+  nameWithType: MyMoveTo.Execute()
+- uid: BOOSEapp.MyMoveTo.Execute*
+  name: Execute
+  href: api/BOOSEapp.MyMoveTo.html#BOOSEapp_MyMoveTo_Execute_
+  commentId: Overload:BOOSEapp.MyMoveTo.Execute
+  isSpec: "True"
+  fullName: BOOSEapp.MyMoveTo.Execute
+  nameWithType: MyMoveTo.Execute
+- uid: BOOSEapp.MyParser
+  name: MyParser
+  href: api/BOOSEapp.MyParser.html
+  commentId: T:BOOSEapp.MyParser
+  fullName: BOOSEapp.MyParser
+  nameWithType: MyParser
+- uid: BOOSEapp.MyParser.#ctor(BOOSEapp.CustomFactory,BOOSE.StoredProgram)
+  name: MyParser(CustomFactory, StoredProgram)
+  href: api/BOOSEapp.MyParser.html#BOOSEapp_MyParser__ctor_BOOSEapp_CustomFactory_BOOSE_StoredProgram_
+  commentId: M:BOOSEapp.MyParser.#ctor(BOOSEapp.CustomFactory,BOOSE.StoredProgram)
+  name.vb: New(CustomFactory, StoredProgram)
+  fullName: BOOSEapp.MyParser.MyParser(BOOSEapp.CustomFactory, BOOSE.StoredProgram)
+  fullName.vb: BOOSEapp.MyParser.New(BOOSEapp.CustomFactory, BOOSE.StoredProgram)
+  nameWithType: MyParser.MyParser(CustomFactory, StoredProgram)
+  nameWithType.vb: MyParser.New(CustomFactory, StoredProgram)
+- uid: BOOSEapp.MyParser.#ctor*
+  name: MyParser
+  href: api/BOOSEapp.MyParser.html#BOOSEapp_MyParser__ctor_
+  commentId: Overload:BOOSEapp.MyParser.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSEapp.MyParser.MyParser
+  fullName.vb: BOOSEapp.MyParser.New
+  nameWithType: MyParser.MyParser
+  nameWithType.vb: MyParser.New
+- uid: BOOSEapp.MyParser.ParseCommand(System.String)
+  name: ParseCommand(string)
+  href: api/BOOSEapp.MyParser.html#BOOSEapp_MyParser_ParseCommand_System_String_
+  commentId: M:BOOSEapp.MyParser.ParseCommand(System.String)
+  name.vb: ParseCommand(String)
+  fullName: BOOSEapp.MyParser.ParseCommand(string)
+  fullName.vb: BOOSEapp.MyParser.ParseCommand(String)
+  nameWithType: MyParser.ParseCommand(string)
+  nameWithType.vb: MyParser.ParseCommand(String)
+- uid: BOOSEapp.MyParser.ParseCommand*
+  name: ParseCommand
+  href: api/BOOSEapp.MyParser.html#BOOSEapp_MyParser_ParseCommand_
+  commentId: Overload:BOOSEapp.MyParser.ParseCommand
+  isSpec: "True"
+  fullName: BOOSEapp.MyParser.ParseCommand
+  nameWithType: MyParser.ParseCommand
+- uid: BOOSEapp.MyPeek
+  name: MyPeek
+  href: api/BOOSEapp.MyPeek.html
+  commentId: T:BOOSEapp.MyPeek
+  fullName: BOOSEapp.MyPeek
+  nameWithType: MyPeek
+- uid: BOOSEapp.MyPeek.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/BOOSEapp.MyPeek.html#BOOSEapp_MyPeek_CheckParameters_System_String___
+  commentId: M:BOOSEapp.MyPeek.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: BOOSEapp.MyPeek.CheckParameters(string[])
+  fullName.vb: BOOSEapp.MyPeek.CheckParameters(String())
+  nameWithType: MyPeek.CheckParameters(string[])
+  nameWithType.vb: MyPeek.CheckParameters(String())
+- uid: BOOSEapp.MyPeek.CheckParameters*
+  name: CheckParameters
+  href: api/BOOSEapp.MyPeek.html#BOOSEapp_MyPeek_CheckParameters_
+  commentId: Overload:BOOSEapp.MyPeek.CheckParameters
+  isSpec: "True"
+  fullName: BOOSEapp.MyPeek.CheckParameters
+  nameWithType: MyPeek.CheckParameters
+- uid: BOOSEapp.MyPeek.Execute
+  name: Execute()
+  href: api/BOOSEapp.MyPeek.html#BOOSEapp_MyPeek_Execute
+  commentId: M:BOOSEapp.MyPeek.Execute
+  fullName: BOOSEapp.MyPeek.Execute()
+  nameWithType: MyPeek.Execute()
+- uid: BOOSEapp.MyPeek.Execute*
+  name: Execute
+  href: api/BOOSEapp.MyPeek.html#BOOSEapp_MyPeek_Execute_
+  commentId: Overload:BOOSEapp.MyPeek.Execute
+  isSpec: "True"
+  fullName: BOOSEapp.MyPeek.Execute
+  nameWithType: MyPeek.Execute
+- uid: BOOSEapp.MyPen
+  name: MyPen
+  href: api/BOOSEapp.MyPen.html
+  commentId: T:BOOSEapp.MyPen
+  fullName: BOOSEapp.MyPen
+  nameWithType: MyPen
+- uid: BOOSEapp.MyPen.#ctor(BOOSEapp.MyCanvasOps)
+  name: MyPen(MyCanvasOps)
+  href: api/BOOSEapp.MyPen.html#BOOSEapp_MyPen__ctor_BOOSEapp_MyCanvasOps_
+  commentId: M:BOOSEapp.MyPen.#ctor(BOOSEapp.MyCanvasOps)
+  name.vb: New(MyCanvasOps)
+  fullName: BOOSEapp.MyPen.MyPen(BOOSEapp.MyCanvasOps)
+  fullName.vb: BOOSEapp.MyPen.New(BOOSEapp.MyCanvasOps)
+  nameWithType: MyPen.MyPen(MyCanvasOps)
+  nameWithType.vb: MyPen.New(MyCanvasOps)
+- uid: BOOSEapp.MyPen.#ctor*
+  name: MyPen
+  href: api/BOOSEapp.MyPen.html#BOOSEapp_MyPen__ctor_
+  commentId: Overload:BOOSEapp.MyPen.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSEapp.MyPen.MyPen
+  fullName.vb: BOOSEapp.MyPen.New
+  nameWithType: MyPen.MyPen
+  nameWithType.vb: MyPen.New
+- uid: BOOSEapp.MyPen.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/BOOSEapp.MyPen.html#BOOSEapp_MyPen_CheckParameters_System_String___
+  commentId: M:BOOSEapp.MyPen.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: BOOSEapp.MyPen.CheckParameters(string[])
+  fullName.vb: BOOSEapp.MyPen.CheckParameters(String())
+  nameWithType: MyPen.CheckParameters(string[])
+  nameWithType.vb: MyPen.CheckParameters(String())
+- uid: BOOSEapp.MyPen.CheckParameters*
+  name: CheckParameters
+  href: api/BOOSEapp.MyPen.html#BOOSEapp_MyPen_CheckParameters_
+  commentId: Overload:BOOSEapp.MyPen.CheckParameters
+  isSpec: "True"
+  fullName: BOOSEapp.MyPen.CheckParameters
+  nameWithType: MyPen.CheckParameters
+- uid: BOOSEapp.MyPen.Execute
+  name: Execute()
+  href: api/BOOSEapp.MyPen.html#BOOSEapp_MyPen_Execute
+  commentId: M:BOOSEapp.MyPen.Execute
+  fullName: BOOSEapp.MyPen.Execute()
+  nameWithType: MyPen.Execute()
+- uid: BOOSEapp.MyPen.Execute*
+  name: Execute
+  href: api/BOOSEapp.MyPen.html#BOOSEapp_MyPen_Execute_
+  commentId: Overload:BOOSEapp.MyPen.Execute
+  isSpec: "True"
+  fullName: BOOSEapp.MyPen.Execute
+  nameWithType: MyPen.Execute
+- uid: BOOSEapp.MyPoke
+  name: MyPoke
+  href: api/BOOSEapp.MyPoke.html
+  commentId: T:BOOSEapp.MyPoke
+  fullName: BOOSEapp.MyPoke
+  nameWithType: MyPoke
+- uid: BOOSEapp.MyPoke.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/BOOSEapp.MyPoke.html#BOOSEapp_MyPoke_CheckParameters_System_String___
+  commentId: M:BOOSEapp.MyPoke.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: BOOSEapp.MyPoke.CheckParameters(string[])
+  fullName.vb: BOOSEapp.MyPoke.CheckParameters(String())
+  nameWithType: MyPoke.CheckParameters(string[])
+  nameWithType.vb: MyPoke.CheckParameters(String())
+- uid: BOOSEapp.MyPoke.CheckParameters*
+  name: CheckParameters
+  href: api/BOOSEapp.MyPoke.html#BOOSEapp_MyPoke_CheckParameters_
+  commentId: Overload:BOOSEapp.MyPoke.CheckParameters
+  isSpec: "True"
+  fullName: BOOSEapp.MyPoke.CheckParameters
+  nameWithType: MyPoke.CheckParameters
+- uid: BOOSEapp.MyPoke.Execute
+  name: Execute()
+  href: api/BOOSEapp.MyPoke.html#BOOSEapp_MyPoke_Execute
+  commentId: M:BOOSEapp.MyPoke.Execute
+  fullName: BOOSEapp.MyPoke.Execute()
+  nameWithType: MyPoke.Execute()
+- uid: BOOSEapp.MyPoke.Execute*
+  name: Execute
+  href: api/BOOSEapp.MyPoke.html#BOOSEapp_MyPoke_Execute_
+  commentId: Overload:BOOSEapp.MyPoke.Execute
+  isSpec: "True"
+  fullName: BOOSEapp.MyPoke.Execute
+  nameWithType: MyPoke.Execute
+- uid: BOOSEapp.MyReal
+  name: MyReal
+  href: api/BOOSEapp.MyReal.html
+  commentId: T:BOOSEapp.MyReal
+  fullName: BOOSEapp.MyReal
+  nameWithType: MyReal
+- uid: BOOSEapp.MyReal.#ctor
+  name: MyReal()
+  href: api/BOOSEapp.MyReal.html#BOOSEapp_MyReal__ctor
+  commentId: M:BOOSEapp.MyReal.#ctor
+  name.vb: New()
+  fullName: BOOSEapp.MyReal.MyReal()
+  fullName.vb: BOOSEapp.MyReal.New()
+  nameWithType: MyReal.MyReal()
+  nameWithType.vb: MyReal.New()
+- uid: BOOSEapp.MyReal.#ctor*
+  name: MyReal
+  href: api/BOOSEapp.MyReal.html#BOOSEapp_MyReal__ctor_
+  commentId: Overload:BOOSEapp.MyReal.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSEapp.MyReal.MyReal
+  fullName.vb: BOOSEapp.MyReal.New
+  nameWithType: MyReal.MyReal
+  nameWithType.vb: MyReal.New
+- uid: BOOSEapp.MyReal.Add(System.String,System.Double)
+  name: Add(string, double)
+  href: api/BOOSEapp.MyReal.html#BOOSEapp_MyReal_Add_System_String_System_Double_
+  commentId: M:BOOSEapp.MyReal.Add(System.String,System.Double)
+  name.vb: Add(String, Double)
+  fullName: BOOSEapp.MyReal.Add(string, double)
+  fullName.vb: BOOSEapp.MyReal.Add(String, Double)
+  nameWithType: MyReal.Add(string, double)
+  nameWithType.vb: MyReal.Add(String, Double)
+- uid: BOOSEapp.MyReal.Add*
+  name: Add
+  href: api/BOOSEapp.MyReal.html#BOOSEapp_MyReal_Add_
+  commentId: Overload:BOOSEapp.MyReal.Add
+  isSpec: "True"
+  fullName: BOOSEapp.MyReal.Add
+  nameWithType: MyReal.Add
+- uid: BOOSEapp.MyReal.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/BOOSEapp.MyReal.html#BOOSEapp_MyReal_CheckParameters_System_String___
+  commentId: M:BOOSEapp.MyReal.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: BOOSEapp.MyReal.CheckParameters(string[])
+  fullName.vb: BOOSEapp.MyReal.CheckParameters(String())
+  nameWithType: MyReal.CheckParameters(string[])
+  nameWithType.vb: MyReal.CheckParameters(String())
+- uid: BOOSEapp.MyReal.CheckParameters*
+  name: CheckParameters
+  href: api/BOOSEapp.MyReal.html#BOOSEapp_MyReal_CheckParameters_
+  commentId: Overload:BOOSEapp.MyReal.CheckParameters
+  isSpec: "True"
+  fullName: BOOSEapp.MyReal.CheckParameters
+  nameWithType: MyReal.CheckParameters
+- uid: BOOSEapp.MyReal.Execute
+  name: Execute()
+  href: api/BOOSEapp.MyReal.html#BOOSEapp_MyReal_Execute
+  commentId: M:BOOSEapp.MyReal.Execute
+  fullName: BOOSEapp.MyReal.Execute()
+  nameWithType: MyReal.Execute()
+- uid: BOOSEapp.MyReal.Execute*
+  name: Execute
+  href: api/BOOSEapp.MyReal.html#BOOSEapp_MyReal_Execute_
+  commentId: Overload:BOOSEapp.MyReal.Execute
+  isSpec: "True"
+  fullName: BOOSEapp.MyReal.Execute
+  nameWithType: MyReal.Execute
+- uid: BOOSEapp.MyReal.Set(BOOSE.StoredProgram,System.String)
+  name: Set(StoredProgram, string)
+  href: api/BOOSEapp.MyReal.html#BOOSEapp_MyReal_Set_BOOSE_StoredProgram_System_String_
+  commentId: M:BOOSEapp.MyReal.Set(BOOSE.StoredProgram,System.String)
+  name.vb: Set(StoredProgram, String)
+  fullName: BOOSEapp.MyReal.Set(BOOSE.StoredProgram, string)
+  fullName.vb: BOOSEapp.MyReal.Set(BOOSE.StoredProgram, String)
+  nameWithType: MyReal.Set(StoredProgram, string)
+  nameWithType.vb: MyReal.Set(StoredProgram, String)
+- uid: BOOSEapp.MyReal.Set*
+  name: Set
+  href: api/BOOSEapp.MyReal.html#BOOSEapp_MyReal_Set_
+  commentId: Overload:BOOSEapp.MyReal.Set
+  isSpec: "True"
+  fullName: BOOSEapp.MyReal.Set
+  nameWithType: MyReal.Set
+- uid: BOOSEapp.MyReal.TryGetValue(System.String,System.Double@)
+  name: TryGetValue(string, out double)
+  href: api/BOOSEapp.MyReal.html#BOOSEapp_MyReal_TryGetValue_System_String_System_Double__
+  commentId: M:BOOSEapp.MyReal.TryGetValue(System.String,System.Double@)
+  name.vb: TryGetValue(String, Double)
+  fullName: BOOSEapp.MyReal.TryGetValue(string, out double)
+  fullName.vb: BOOSEapp.MyReal.TryGetValue(String, Double)
+  nameWithType: MyReal.TryGetValue(string, out double)
+  nameWithType.vb: MyReal.TryGetValue(String, Double)
+- uid: BOOSEapp.MyReal.TryGetValue*
+  name: TryGetValue
+  href: api/BOOSEapp.MyReal.html#BOOSEapp_MyReal_TryGetValue_
+  commentId: Overload:BOOSEapp.MyReal.TryGetValue
+  isSpec: "True"
+  fullName: BOOSEapp.MyReal.TryGetValue
+  nameWithType: MyReal.TryGetValue
+- uid: BOOSEapp.MyReal.TryResolveExpression(System.String,System.Double@)
+  name: TryResolveExpression(string, out double)
+  href: api/BOOSEapp.MyReal.html#BOOSEapp_MyReal_TryResolveExpression_System_String_System_Double__
+  commentId: M:BOOSEapp.MyReal.TryResolveExpression(System.String,System.Double@)
+  name.vb: TryResolveExpression(String, Double)
+  fullName: BOOSEapp.MyReal.TryResolveExpression(string, out double)
+  fullName.vb: BOOSEapp.MyReal.TryResolveExpression(String, Double)
+  nameWithType: MyReal.TryResolveExpression(string, out double)
+  nameWithType.vb: MyReal.TryResolveExpression(String, Double)
+- uid: BOOSEapp.MyReal.TryResolveExpression*
+  name: TryResolveExpression
+  href: api/BOOSEapp.MyReal.html#BOOSEapp_MyReal_TryResolveExpression_
+  commentId: Overload:BOOSEapp.MyReal.TryResolveExpression
+  isSpec: "True"
+  fullName: BOOSEapp.MyReal.TryResolveExpression
+  nameWithType: MyReal.TryResolveExpression
+- uid: BOOSEapp.MyReal.TryResolveValue(System.String,System.Double@)
+  name: TryResolveValue(string, out double)
+  href: api/BOOSEapp.MyReal.html#BOOSEapp_MyReal_TryResolveValue_System_String_System_Double__
+  commentId: M:BOOSEapp.MyReal.TryResolveValue(System.String,System.Double@)
+  name.vb: TryResolveValue(String, Double)
+  fullName: BOOSEapp.MyReal.TryResolveValue(string, out double)
+  fullName.vb: BOOSEapp.MyReal.TryResolveValue(String, Double)
+  nameWithType: MyReal.TryResolveValue(string, out double)
+  nameWithType.vb: MyReal.TryResolveValue(String, Double)
+- uid: BOOSEapp.MyReal.TryResolveValue*
+  name: TryResolveValue
+  href: api/BOOSEapp.MyReal.html#BOOSEapp_MyReal_TryResolveValue_
+  commentId: Overload:BOOSEapp.MyReal.TryResolveValue
+  isSpec: "True"
+  fullName: BOOSEapp.MyReal.TryResolveValue
+  nameWithType: MyReal.TryResolveValue
+- uid: BOOSEapp.MyReal.expression
+  name: expression
+  href: api/BOOSEapp.MyReal.html#BOOSEapp_MyReal_expression
+  commentId: F:BOOSEapp.MyReal.expression
+  fullName: BOOSEapp.MyReal.expression
+  nameWithType: MyReal.expression
+- uid: BOOSEapp.MyReal.variableName
+  name: variableName
+  href: api/BOOSEapp.MyReal.html#BOOSEapp_MyReal_variableName
+  commentId: F:BOOSEapp.MyReal.variableName
+  fullName: BOOSEapp.MyReal.variableName
+  nameWithType: MyReal.variableName
+- uid: BOOSEapp.MyReal.variableNum
+  name: variableNum
+  href: api/BOOSEapp.MyReal.html#BOOSEapp_MyReal_variableNum
+  commentId: F:BOOSEapp.MyReal.variableNum
+  fullName: BOOSEapp.MyReal.variableNum
+  nameWithType: MyReal.variableNum
+- uid: BOOSEapp.MyRect
+  name: MyRect
+  href: api/BOOSEapp.MyRect.html
+  commentId: T:BOOSEapp.MyRect
+  fullName: BOOSEapp.MyRect
+  nameWithType: MyRect
+- uid: BOOSEapp.MyRect.#ctor(BOOSEapp.MyCanvasOps)
+  name: MyRect(MyCanvasOps)
+  href: api/BOOSEapp.MyRect.html#BOOSEapp_MyRect__ctor_BOOSEapp_MyCanvasOps_
+  commentId: M:BOOSEapp.MyRect.#ctor(BOOSEapp.MyCanvasOps)
+  name.vb: New(MyCanvasOps)
+  fullName: BOOSEapp.MyRect.MyRect(BOOSEapp.MyCanvasOps)
+  fullName.vb: BOOSEapp.MyRect.New(BOOSEapp.MyCanvasOps)
+  nameWithType: MyRect.MyRect(MyCanvasOps)
+  nameWithType.vb: MyRect.New(MyCanvasOps)
+- uid: BOOSEapp.MyRect.#ctor*
+  name: MyRect
+  href: api/BOOSEapp.MyRect.html#BOOSEapp_MyRect__ctor_
+  commentId: Overload:BOOSEapp.MyRect.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSEapp.MyRect.MyRect
+  fullName.vb: BOOSEapp.MyRect.New
+  nameWithType: MyRect.MyRect
+  nameWithType.vb: MyRect.New
+- uid: BOOSEapp.MyRect.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/BOOSEapp.MyRect.html#BOOSEapp_MyRect_CheckParameters_System_String___
+  commentId: M:BOOSEapp.MyRect.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: BOOSEapp.MyRect.CheckParameters(string[])
+  fullName.vb: BOOSEapp.MyRect.CheckParameters(String())
+  nameWithType: MyRect.CheckParameters(string[])
+  nameWithType.vb: MyRect.CheckParameters(String())
+- uid: BOOSEapp.MyRect.CheckParameters*
+  name: CheckParameters
+  href: api/BOOSEapp.MyRect.html#BOOSEapp_MyRect_CheckParameters_
+  commentId: Overload:BOOSEapp.MyRect.CheckParameters
+  isSpec: "True"
+  fullName: BOOSEapp.MyRect.CheckParameters
+  nameWithType: MyRect.CheckParameters
+- uid: BOOSEapp.MyRect.Execute
+  name: Execute()
+  href: api/BOOSEapp.MyRect.html#BOOSEapp_MyRect_Execute
+  commentId: M:BOOSEapp.MyRect.Execute
+  fullName: BOOSEapp.MyRect.Execute()
+  nameWithType: MyRect.Execute()
+- uid: BOOSEapp.MyRect.Execute*
+  name: Execute
+  href: api/BOOSEapp.MyRect.html#BOOSEapp_MyRect_Execute_
+  commentId: Overload:BOOSEapp.MyRect.Execute
+  isSpec: "True"
+  fullName: BOOSEapp.MyRect.Execute
+  nameWithType: MyRect.Execute
+- uid: BOOSEapp.MyTri
+  name: MyTri
+  href: api/BOOSEapp.MyTri.html
+  commentId: T:BOOSEapp.MyTri
+  fullName: BOOSEapp.MyTri
+  nameWithType: MyTri
+- uid: BOOSEapp.MyTri.#ctor(BOOSEapp.MyCanvasOps)
+  name: MyTri(MyCanvasOps)
+  href: api/BOOSEapp.MyTri.html#BOOSEapp_MyTri__ctor_BOOSEapp_MyCanvasOps_
+  commentId: M:BOOSEapp.MyTri.#ctor(BOOSEapp.MyCanvasOps)
+  name.vb: New(MyCanvasOps)
+  fullName: BOOSEapp.MyTri.MyTri(BOOSEapp.MyCanvasOps)
+  fullName.vb: BOOSEapp.MyTri.New(BOOSEapp.MyCanvasOps)
+  nameWithType: MyTri.MyTri(MyCanvasOps)
+  nameWithType.vb: MyTri.New(MyCanvasOps)
+- uid: BOOSEapp.MyTri.#ctor*
+  name: MyTri
+  href: api/BOOSEapp.MyTri.html#BOOSEapp_MyTri__ctor_
+  commentId: Overload:BOOSEapp.MyTri.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSEapp.MyTri.MyTri
+  fullName.vb: BOOSEapp.MyTri.New
+  nameWithType: MyTri.MyTri
+  nameWithType.vb: MyTri.New
+- uid: BOOSEapp.MyTri.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/BOOSEapp.MyTri.html#BOOSEapp_MyTri_CheckParameters_System_String___
+  commentId: M:BOOSEapp.MyTri.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: BOOSEapp.MyTri.CheckParameters(string[])
+  fullName.vb: BOOSEapp.MyTri.CheckParameters(String())
+  nameWithType: MyTri.CheckParameters(string[])
+  nameWithType.vb: MyTri.CheckParameters(String())
+- uid: BOOSEapp.MyTri.CheckParameters*
+  name: CheckParameters
+  href: api/BOOSEapp.MyTri.html#BOOSEapp_MyTri_CheckParameters_
+  commentId: Overload:BOOSEapp.MyTri.CheckParameters
+  isSpec: "True"
+  fullName: BOOSEapp.MyTri.CheckParameters
+  nameWithType: MyTri.CheckParameters
+- uid: BOOSEapp.MyTri.Execute
+  name: Execute()
+  href: api/BOOSEapp.MyTri.html#BOOSEapp_MyTri_Execute
+  commentId: M:BOOSEapp.MyTri.Execute
+  fullName: BOOSEapp.MyTri.Execute()
+  nameWithType: MyTri.Execute()
+- uid: BOOSEapp.MyTri.Execute*
+  name: Execute
+  href: api/BOOSEapp.MyTri.html#BOOSEapp_MyTri_Execute_
+  commentId: Overload:BOOSEapp.MyTri.Execute
+  isSpec: "True"
+  fullName: BOOSEapp.MyTri.Execute
+  nameWithType: MyTri.Execute
+- uid: BOOSEapp.MyWriteText
+  name: MyWriteText
+  href: api/BOOSEapp.MyWriteText.html
+  commentId: T:BOOSEapp.MyWriteText
+  fullName: BOOSEapp.MyWriteText
+  nameWithType: MyWriteText
+- uid: BOOSEapp.MyWriteText.#ctor(BOOSEapp.MyCanvasOps)
+  name: MyWriteText(MyCanvasOps)
+  href: api/BOOSEapp.MyWriteText.html#BOOSEapp_MyWriteText__ctor_BOOSEapp_MyCanvasOps_
+  commentId: M:BOOSEapp.MyWriteText.#ctor(BOOSEapp.MyCanvasOps)
+  name.vb: New(MyCanvasOps)
+  fullName: BOOSEapp.MyWriteText.MyWriteText(BOOSEapp.MyCanvasOps)
+  fullName.vb: BOOSEapp.MyWriteText.New(BOOSEapp.MyCanvasOps)
+  nameWithType: MyWriteText.MyWriteText(MyCanvasOps)
+  nameWithType.vb: MyWriteText.New(MyCanvasOps)
+- uid: BOOSEapp.MyWriteText.#ctor*
+  name: MyWriteText
+  href: api/BOOSEapp.MyWriteText.html#BOOSEapp_MyWriteText__ctor_
+  commentId: Overload:BOOSEapp.MyWriteText.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSEapp.MyWriteText.MyWriteText
+  fullName.vb: BOOSEapp.MyWriteText.New
+  nameWithType: MyWriteText.MyWriteText
+  nameWithType.vb: MyWriteText.New
+- uid: BOOSEapp.MyWriteText.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/BOOSEapp.MyWriteText.html#BOOSEapp_MyWriteText_CheckParameters_System_String___
+  commentId: M:BOOSEapp.MyWriteText.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: BOOSEapp.MyWriteText.CheckParameters(string[])
+  fullName.vb: BOOSEapp.MyWriteText.CheckParameters(String())
+  nameWithType: MyWriteText.CheckParameters(string[])
+  nameWithType.vb: MyWriteText.CheckParameters(String())
+- uid: BOOSEapp.MyWriteText.CheckParameters*
+  name: CheckParameters
+  href: api/BOOSEapp.MyWriteText.html#BOOSEapp_MyWriteText_CheckParameters_
+  commentId: Overload:BOOSEapp.MyWriteText.CheckParameters
+  isSpec: "True"
+  fullName: BOOSEapp.MyWriteText.CheckParameters
+  nameWithType: MyWriteText.CheckParameters
+- uid: BOOSEapp.MyWriteText.Execute
+  name: Execute()
+  href: api/BOOSEapp.MyWriteText.html#BOOSEapp_MyWriteText_Execute
+  commentId: M:BOOSEapp.MyWriteText.Execute
+  fullName: BOOSEapp.MyWriteText.Execute()
+  nameWithType: MyWriteText.Execute()
+- uid: BOOSEapp.MyWriteText.Execute*
+  name: Execute
+  href: api/BOOSEapp.MyWriteText.html#BOOSEapp_MyWriteText_Execute_
+  commentId: Overload:BOOSEapp.MyWriteText.Execute
+  isSpec: "True"
+  fullName: BOOSEapp.MyWriteText.Execute
+  nameWithType: MyWriteText.Execute
+- uid: BOOSEapp.TestCanvas
+  name: TestCanvas
+  href: api/BOOSEapp.TestCanvas.html
+  commentId: T:BOOSEapp.TestCanvas
+  fullName: BOOSEapp.TestCanvas
+  nameWithType: TestCanvas
+- uid: BOOSEapp.TestCanvas.Calls
+  name: Calls
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_Calls
+  commentId: P:BOOSEapp.TestCanvas.Calls
+  fullName: BOOSEapp.TestCanvas.Calls
+  nameWithType: TestCanvas.Calls
+- uid: BOOSEapp.TestCanvas.Calls*
+  name: Calls
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_Calls_
+  commentId: Overload:BOOSEapp.TestCanvas.Calls
+  isSpec: "True"
+  fullName: BOOSEapp.TestCanvas.Calls
+  nameWithType: TestCanvas.Calls
+- uid: BOOSEapp.TestCanvas.Circle(System.Int32,System.Boolean)
+  name: Circle(int, bool)
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_Circle_System_Int32_System_Boolean_
+  commentId: M:BOOSEapp.TestCanvas.Circle(System.Int32,System.Boolean)
+  name.vb: Circle(Integer, Boolean)
+  fullName: BOOSEapp.TestCanvas.Circle(int, bool)
+  fullName.vb: BOOSEapp.TestCanvas.Circle(Integer, Boolean)
+  nameWithType: TestCanvas.Circle(int, bool)
+  nameWithType.vb: TestCanvas.Circle(Integer, Boolean)
+- uid: BOOSEapp.TestCanvas.Circle*
+  name: Circle
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_Circle_
+  commentId: Overload:BOOSEapp.TestCanvas.Circle
+  isSpec: "True"
+  fullName: BOOSEapp.TestCanvas.Circle
+  nameWithType: TestCanvas.Circle
+- uid: BOOSEapp.TestCanvas.Clear
+  name: Clear()
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_Clear
+  commentId: M:BOOSEapp.TestCanvas.Clear
+  fullName: BOOSEapp.TestCanvas.Clear()
+  nameWithType: TestCanvas.Clear()
+- uid: BOOSEapp.TestCanvas.Clear*
+  name: Clear
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_Clear_
+  commentId: Overload:BOOSEapp.TestCanvas.Clear
+  isSpec: "True"
+  fullName: BOOSEapp.TestCanvas.Clear
+  nameWithType: TestCanvas.Clear
+- uid: BOOSEapp.TestCanvas.DrawTo(System.Int32,System.Int32)
+  name: DrawTo(int, int)
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_DrawTo_System_Int32_System_Int32_
+  commentId: M:BOOSEapp.TestCanvas.DrawTo(System.Int32,System.Int32)
+  name.vb: DrawTo(Integer, Integer)
+  fullName: BOOSEapp.TestCanvas.DrawTo(int, int)
+  fullName.vb: BOOSEapp.TestCanvas.DrawTo(Integer, Integer)
+  nameWithType: TestCanvas.DrawTo(int, int)
+  nameWithType.vb: TestCanvas.DrawTo(Integer, Integer)
+- uid: BOOSEapp.TestCanvas.DrawTo*
+  name: DrawTo
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_DrawTo_
+  commentId: Overload:BOOSEapp.TestCanvas.DrawTo
+  isSpec: "True"
+  fullName: BOOSEapp.TestCanvas.DrawTo
+  nameWithType: TestCanvas.DrawTo
+- uid: BOOSEapp.TestCanvas.MoveTo(System.Int32,System.Int32)
+  name: MoveTo(int, int)
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_MoveTo_System_Int32_System_Int32_
+  commentId: M:BOOSEapp.TestCanvas.MoveTo(System.Int32,System.Int32)
+  name.vb: MoveTo(Integer, Integer)
+  fullName: BOOSEapp.TestCanvas.MoveTo(int, int)
+  fullName.vb: BOOSEapp.TestCanvas.MoveTo(Integer, Integer)
+  nameWithType: TestCanvas.MoveTo(int, int)
+  nameWithType.vb: TestCanvas.MoveTo(Integer, Integer)
+- uid: BOOSEapp.TestCanvas.MoveTo*
+  name: MoveTo
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_MoveTo_
+  commentId: Overload:BOOSEapp.TestCanvas.MoveTo
+  isSpec: "True"
+  fullName: BOOSEapp.TestCanvas.MoveTo
+  nameWithType: TestCanvas.MoveTo
+- uid: BOOSEapp.TestCanvas.PenColour
+  name: PenColour
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_PenColour
+  commentId: P:BOOSEapp.TestCanvas.PenColour
+  fullName: BOOSEapp.TestCanvas.PenColour
+  nameWithType: TestCanvas.PenColour
+- uid: BOOSEapp.TestCanvas.PenColour*
+  name: PenColour
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_PenColour_
+  commentId: Overload:BOOSEapp.TestCanvas.PenColour
+  isSpec: "True"
+  fullName: BOOSEapp.TestCanvas.PenColour
+  nameWithType: TestCanvas.PenColour
+- uid: BOOSEapp.TestCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  name: Rect(int, int, bool)
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_Rect_System_Int32_System_Int32_System_Boolean_
+  commentId: M:BOOSEapp.TestCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  name.vb: Rect(Integer, Integer, Boolean)
+  fullName: BOOSEapp.TestCanvas.Rect(int, int, bool)
+  fullName.vb: BOOSEapp.TestCanvas.Rect(Integer, Integer, Boolean)
+  nameWithType: TestCanvas.Rect(int, int, bool)
+  nameWithType.vb: TestCanvas.Rect(Integer, Integer, Boolean)
+- uid: BOOSEapp.TestCanvas.Rect*
+  name: Rect
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_Rect_
+  commentId: Overload:BOOSEapp.TestCanvas.Rect
+  isSpec: "True"
+  fullName: BOOSEapp.TestCanvas.Rect
+  nameWithType: TestCanvas.Rect
+- uid: BOOSEapp.TestCanvas.Reset
+  name: Reset()
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_Reset
+  commentId: M:BOOSEapp.TestCanvas.Reset
+  fullName: BOOSEapp.TestCanvas.Reset()
+  nameWithType: TestCanvas.Reset()
+- uid: BOOSEapp.TestCanvas.Reset*
+  name: Reset
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_Reset_
+  commentId: Overload:BOOSEapp.TestCanvas.Reset
+  isSpec: "True"
+  fullName: BOOSEapp.TestCanvas.Reset
+  nameWithType: TestCanvas.Reset
+- uid: BOOSEapp.TestCanvas.Set(System.Int32,System.Int32)
+  name: Set(int, int)
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_Set_System_Int32_System_Int32_
+  commentId: M:BOOSEapp.TestCanvas.Set(System.Int32,System.Int32)
+  name.vb: Set(Integer, Integer)
+  fullName: BOOSEapp.TestCanvas.Set(int, int)
+  fullName.vb: BOOSEapp.TestCanvas.Set(Integer, Integer)
+  nameWithType: TestCanvas.Set(int, int)
+  nameWithType.vb: TestCanvas.Set(Integer, Integer)
+- uid: BOOSEapp.TestCanvas.Set*
+  name: Set
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_Set_
+  commentId: Overload:BOOSEapp.TestCanvas.Set
+  isSpec: "True"
+  fullName: BOOSEapp.TestCanvas.Set
+  nameWithType: TestCanvas.Set
+- uid: BOOSEapp.TestCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  name: SetColour(int, int, int)
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_SetColour_System_Int32_System_Int32_System_Int32_
+  commentId: M:BOOSEapp.TestCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  name.vb: SetColour(Integer, Integer, Integer)
+  fullName: BOOSEapp.TestCanvas.SetColour(int, int, int)
+  fullName.vb: BOOSEapp.TestCanvas.SetColour(Integer, Integer, Integer)
+  nameWithType: TestCanvas.SetColour(int, int, int)
+  nameWithType.vb: TestCanvas.SetColour(Integer, Integer, Integer)
+- uid: BOOSEapp.TestCanvas.SetColour*
+  name: SetColour
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_SetColour_
+  commentId: Overload:BOOSEapp.TestCanvas.SetColour
+  isSpec: "True"
+  fullName: BOOSEapp.TestCanvas.SetColour
+  nameWithType: TestCanvas.SetColour
+- uid: BOOSEapp.TestCanvas.Tri(System.Int32,System.Int32)
+  name: Tri(int, int)
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_Tri_System_Int32_System_Int32_
+  commentId: M:BOOSEapp.TestCanvas.Tri(System.Int32,System.Int32)
+  name.vb: Tri(Integer, Integer)
+  fullName: BOOSEapp.TestCanvas.Tri(int, int)
+  fullName.vb: BOOSEapp.TestCanvas.Tri(Integer, Integer)
+  nameWithType: TestCanvas.Tri(int, int)
+  nameWithType.vb: TestCanvas.Tri(Integer, Integer)
+- uid: BOOSEapp.TestCanvas.Tri*
+  name: Tri
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_Tri_
+  commentId: Overload:BOOSEapp.TestCanvas.Tri
+  isSpec: "True"
+  fullName: BOOSEapp.TestCanvas.Tri
+  nameWithType: TestCanvas.Tri
+- uid: BOOSEapp.TestCanvas.WriteText(System.String)
+  name: WriteText(string)
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_WriteText_System_String_
+  commentId: M:BOOSEapp.TestCanvas.WriteText(System.String)
+  name.vb: WriteText(String)
+  fullName: BOOSEapp.TestCanvas.WriteText(string)
+  fullName.vb: BOOSEapp.TestCanvas.WriteText(String)
+  nameWithType: TestCanvas.WriteText(string)
+  nameWithType.vb: TestCanvas.WriteText(String)
+- uid: BOOSEapp.TestCanvas.WriteText*
+  name: WriteText
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_WriteText_
+  commentId: Overload:BOOSEapp.TestCanvas.WriteText
+  isSpec: "True"
+  fullName: BOOSEapp.TestCanvas.WriteText
+  nameWithType: TestCanvas.WriteText
+- uid: BOOSEapp.TestCanvas.Xpos
+  name: Xpos
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_Xpos
+  commentId: P:BOOSEapp.TestCanvas.Xpos
+  fullName: BOOSEapp.TestCanvas.Xpos
+  nameWithType: TestCanvas.Xpos
+- uid: BOOSEapp.TestCanvas.Xpos*
+  name: Xpos
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_Xpos_
+  commentId: Overload:BOOSEapp.TestCanvas.Xpos
+  isSpec: "True"
+  fullName: BOOSEapp.TestCanvas.Xpos
+  nameWithType: TestCanvas.Xpos
+- uid: BOOSEapp.TestCanvas.Ypos
+  name: Ypos
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_Ypos
+  commentId: P:BOOSEapp.TestCanvas.Ypos
+  fullName: BOOSEapp.TestCanvas.Ypos
+  nameWithType: TestCanvas.Ypos
+- uid: BOOSEapp.TestCanvas.Ypos*
+  name: Ypos
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_Ypos_
+  commentId: Overload:BOOSEapp.TestCanvas.Ypos
+  isSpec: "True"
+  fullName: BOOSEapp.TestCanvas.Ypos
+  nameWithType: TestCanvas.Ypos
+- uid: BOOSEapp.TestCanvas.getBitmap
+  name: getBitmap()
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_getBitmap
+  commentId: M:BOOSEapp.TestCanvas.getBitmap
+  fullName: BOOSEapp.TestCanvas.getBitmap()
+  nameWithType: TestCanvas.getBitmap()
+- uid: BOOSEapp.TestCanvas.getBitmap*
+  name: getBitmap
+  href: api/BOOSEapp.TestCanvas.html#BOOSEapp_TestCanvas_getBitmap_
+  commentId: Overload:BOOSEapp.TestCanvas.getBitmap
+  isSpec: "True"
+  fullName: BOOSEapp.TestCanvas.getBitmap
+  nameWithType: TestCanvas.getBitmap
+- uid: BOOSEapp.VariableResolver
+  name: VariableResolver
+  href: api/BOOSEapp.VariableResolver.html
+  commentId: T:BOOSEapp.VariableResolver
+  fullName: BOOSEapp.VariableResolver
+  nameWithType: VariableResolver
+- uid: BOOSEapp.VariableResolver.TryResolveToInt(System.String,System.Int32@)
+  name: TryResolveToInt(string, out int)
+  href: api/BOOSEapp.VariableResolver.html#BOOSEapp_VariableResolver_TryResolveToInt_System_String_System_Int32__
+  commentId: M:BOOSEapp.VariableResolver.TryResolveToInt(System.String,System.Int32@)
+  name.vb: TryResolveToInt(String, Integer)
+  fullName: BOOSEapp.VariableResolver.TryResolveToInt(string, out int)
+  fullName.vb: BOOSEapp.VariableResolver.TryResolveToInt(String, Integer)
+  nameWithType: VariableResolver.TryResolveToInt(string, out int)
+  nameWithType.vb: VariableResolver.TryResolveToInt(String, Integer)
+- uid: BOOSEapp.VariableResolver.TryResolveToInt*
+  name: TryResolveToInt
+  href: api/BOOSEapp.VariableResolver.html#BOOSEapp_VariableResolver_TryResolveToInt_
+  commentId: Overload:BOOSEapp.VariableResolver.TryResolveToInt
+  isSpec: "True"
+  fullName: BOOSEapp.VariableResolver.TryResolveToInt
+  nameWithType: VariableResolver.TryResolveToInt
+- uid: BOOSEapp.VariableStore
+  name: VariableStore
+  href: api/BOOSEapp.VariableStore.html
+  commentId: T:BOOSEapp.VariableStore
+  fullName: BOOSEapp.VariableStore
+  nameWithType: VariableStore
+- uid: BOOSEapp.VariableStore.Instance
+  name: Instance
+  href: api/BOOSEapp.VariableStore.html#BOOSEapp_VariableStore_Instance
+  commentId: P:BOOSEapp.VariableStore.Instance
+  fullName: BOOSEapp.VariableStore.Instance
+  nameWithType: VariableStore.Instance
+- uid: BOOSEapp.VariableStore.Instance*
+  name: Instance
+  href: api/BOOSEapp.VariableStore.html#BOOSEapp_VariableStore_Instance_
+  commentId: Overload:BOOSEapp.VariableStore.Instance
+  isSpec: "True"
+  fullName: BOOSEapp.VariableStore.Instance
+  nameWithType: VariableStore.Instance
+- uid: BOOSEapp.VariableStore.SetBoolAndNotify(System.String,System.Boolean)
+  name: SetBoolAndNotify(string, bool)
+  href: api/BOOSEapp.VariableStore.html#BOOSEapp_VariableStore_SetBoolAndNotify_System_String_System_Boolean_
+  commentId: M:BOOSEapp.VariableStore.SetBoolAndNotify(System.String,System.Boolean)
+  name.vb: SetBoolAndNotify(String, Boolean)
+  fullName: BOOSEapp.VariableStore.SetBoolAndNotify(string, bool)
+  fullName.vb: BOOSEapp.VariableStore.SetBoolAndNotify(String, Boolean)
+  nameWithType: VariableStore.SetBoolAndNotify(string, bool)
+  nameWithType.vb: VariableStore.SetBoolAndNotify(String, Boolean)
+- uid: BOOSEapp.VariableStore.SetBoolAndNotify*
+  name: SetBoolAndNotify
+  href: api/BOOSEapp.VariableStore.html#BOOSEapp_VariableStore_SetBoolAndNotify_
+  commentId: Overload:BOOSEapp.VariableStore.SetBoolAndNotify
+  isSpec: "True"
+  fullName: BOOSEapp.VariableStore.SetBoolAndNotify
+  nameWithType: VariableStore.SetBoolAndNotify
+- uid: BOOSEapp.VariableStore.SetIntAndNotify(System.String,System.Int32)
+  name: SetIntAndNotify(string, int)
+  href: api/BOOSEapp.VariableStore.html#BOOSEapp_VariableStore_SetIntAndNotify_System_String_System_Int32_
+  commentId: M:BOOSEapp.VariableStore.SetIntAndNotify(System.String,System.Int32)
+  name.vb: SetIntAndNotify(String, Integer)
+  fullName: BOOSEapp.VariableStore.SetIntAndNotify(string, int)
+  fullName.vb: BOOSEapp.VariableStore.SetIntAndNotify(String, Integer)
+  nameWithType: VariableStore.SetIntAndNotify(string, int)
+  nameWithType.vb: VariableStore.SetIntAndNotify(String, Integer)
+- uid: BOOSEapp.VariableStore.SetIntAndNotify*
+  name: SetIntAndNotify
+  href: api/BOOSEapp.VariableStore.html#BOOSEapp_VariableStore_SetIntAndNotify_
+  commentId: Overload:BOOSEapp.VariableStore.SetIntAndNotify
+  isSpec: "True"
+  fullName: BOOSEapp.VariableStore.SetIntAndNotify
+  nameWithType: VariableStore.SetIntAndNotify
+- uid: BOOSEapp.VariableStore.SetRealAndNotify(System.String,System.Double)
+  name: SetRealAndNotify(string, double)
+  href: api/BOOSEapp.VariableStore.html#BOOSEapp_VariableStore_SetRealAndNotify_System_String_System_Double_
+  commentId: M:BOOSEapp.VariableStore.SetRealAndNotify(System.String,System.Double)
+  name.vb: SetRealAndNotify(String, Double)
+  fullName: BOOSEapp.VariableStore.SetRealAndNotify(string, double)
+  fullName.vb: BOOSEapp.VariableStore.SetRealAndNotify(String, Double)
+  nameWithType: VariableStore.SetRealAndNotify(string, double)
+  nameWithType.vb: VariableStore.SetRealAndNotify(String, Double)
+- uid: BOOSEapp.VariableStore.SetRealAndNotify*
+  name: SetRealAndNotify
+  href: api/BOOSEapp.VariableStore.html#BOOSEapp_VariableStore_SetRealAndNotify_
+  commentId: Overload:BOOSEapp.VariableStore.SetRealAndNotify
+  isSpec: "True"
+  fullName: BOOSEapp.VariableStore.SetRealAndNotify
+  nameWithType: VariableStore.SetRealAndNotify
+- uid: BOOSEapp.VariableStore.TryGetBool(System.String,System.Boolean@)
+  name: TryGetBool(string, out bool)
+  href: api/BOOSEapp.VariableStore.html#BOOSEapp_VariableStore_TryGetBool_System_String_System_Boolean__
+  commentId: M:BOOSEapp.VariableStore.TryGetBool(System.String,System.Boolean@)
+  name.vb: TryGetBool(String, Boolean)
+  fullName: BOOSEapp.VariableStore.TryGetBool(string, out bool)
+  fullName.vb: BOOSEapp.VariableStore.TryGetBool(String, Boolean)
+  nameWithType: VariableStore.TryGetBool(string, out bool)
+  nameWithType.vb: VariableStore.TryGetBool(String, Boolean)
+- uid: BOOSEapp.VariableStore.TryGetBool*
+  name: TryGetBool
+  href: api/BOOSEapp.VariableStore.html#BOOSEapp_VariableStore_TryGetBool_
+  commentId: Overload:BOOSEapp.VariableStore.TryGetBool
+  isSpec: "True"
+  fullName: BOOSEapp.VariableStore.TryGetBool
+  nameWithType: VariableStore.TryGetBool
+- uid: BOOSEapp.VariableStore.TryGetInt(System.String,System.Int32@)
+  name: TryGetInt(string, out int)
+  href: api/BOOSEapp.VariableStore.html#BOOSEapp_VariableStore_TryGetInt_System_String_System_Int32__
+  commentId: M:BOOSEapp.VariableStore.TryGetInt(System.String,System.Int32@)
+  name.vb: TryGetInt(String, Integer)
+  fullName: BOOSEapp.VariableStore.TryGetInt(string, out int)
+  fullName.vb: BOOSEapp.VariableStore.TryGetInt(String, Integer)
+  nameWithType: VariableStore.TryGetInt(string, out int)
+  nameWithType.vb: VariableStore.TryGetInt(String, Integer)
+- uid: BOOSEapp.VariableStore.TryGetInt*
+  name: TryGetInt
+  href: api/BOOSEapp.VariableStore.html#BOOSEapp_VariableStore_TryGetInt_
+  commentId: Overload:BOOSEapp.VariableStore.TryGetInt
+  isSpec: "True"
+  fullName: BOOSEapp.VariableStore.TryGetInt
+  nameWithType: VariableStore.TryGetInt
+- uid: BOOSEapp.VariableStore.TryGetReal(System.String,System.Double@)
+  name: TryGetReal(string, out double)
+  href: api/BOOSEapp.VariableStore.html#BOOSEapp_VariableStore_TryGetReal_System_String_System_Double__
+  commentId: M:BOOSEapp.VariableStore.TryGetReal(System.String,System.Double@)
+  name.vb: TryGetReal(String, Double)
+  fullName: BOOSEapp.VariableStore.TryGetReal(string, out double)
+  fullName.vb: BOOSEapp.VariableStore.TryGetReal(String, Double)
+  nameWithType: VariableStore.TryGetReal(string, out double)
+  nameWithType.vb: VariableStore.TryGetReal(String, Double)
+- uid: BOOSEapp.VariableStore.TryGetReal*
+  name: TryGetReal
+  href: api/BOOSEapp.VariableStore.html#BOOSEapp_VariableStore_TryGetReal_
+  commentId: Overload:BOOSEapp.VariableStore.TryGetReal
+  isSpec: "True"
+  fullName: BOOSEapp.VariableStore.TryGetReal
+  nameWithType: VariableStore.TryGetReal
+- uid: BOOSEapp.VariableStore.VariableChanged
+  name: VariableChanged
+  href: api/BOOSEapp.VariableStore.html#BOOSEapp_VariableStore_VariableChanged
+  commentId: E:BOOSEapp.VariableStore.VariableChanged
+  fullName: BOOSEapp.VariableStore.VariableChanged
+  nameWithType: VariableStore.VariableChanged

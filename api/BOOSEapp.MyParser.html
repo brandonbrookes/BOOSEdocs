@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class CustomFactory | BOOSEapp </title>
+      <title>Class MyParser | BOOSEapp </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class CustomFactory | BOOSEapp ">
+      <meta name="title" content="Class MyParser | BOOSEapp ">
       
-      <meta name="description" content="Factory for creating application-specific  implementations.">
+      <meta name="description" content="Parser implementation used by the BOOSE application. Parses a single program line into a concrete  using the provided .">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/new/main/apiSpec/new?filename=BOOSEapp_CustomFactory.md&amp;value=---%0Auid%3A%20BOOSEapp.CustomFactory%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/new/main/apiSpec/new?filename=BOOSEapp_MyParser.md&amp;value=---%0Auid%3A%20BOOSEapp.MyParser%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -80,12 +80,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="BOOSEapp.CustomFactory">
+        <article data-uid="BOOSEapp.MyParser">
 
 
 
-  <h1 id="BOOSEapp_CustomFactory" data-uid="BOOSEapp.CustomFactory" class="text-break">
-Class CustomFactory  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/CustomFactory.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <h1 id="BOOSEapp_MyParser" data-uid="BOOSEapp.MyParser" class="text-break">
+Class MyParser  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/MyParser.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -93,12 +93,13 @@ Class CustomFactory  <a class="header-action link-secondary" title="View source"
   <dl><dt>Assembly</dt><dd>BOOSEapp.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Factory for creating application-specific <span class="xref">BOOSE.ICommand</span> implementations.</p>
+  <div class="markdown summary"><p>Parser implementation used by the BOOSE application.
+Parses a single program line into a concrete <span class="xref">BOOSE.ICommand</span> using the provided <a class="xref" href="BOOSEapp.CustomFactory.html">CustomFactory</a>.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CustomFactory : CommandFactory, ICommandFactory</code></pre>
+    <pre><code class="lang-csharp hljs">public class MyParser : Parser, IParser</code></pre>
   </div>
 
 
@@ -108,15 +109,15 @@ Class CustomFactory  <a class="header-action link-secondary" title="View source"
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">CommandFactory</span></div>
-      <div><span class="xref">CustomFactory</span></div>
+      <div><span class="xref">Parser</span></div>
+      <div><span class="xref">MyParser</span></div>
     </dd>
   </dl>
 
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><span class="xref">ICommandFactory</span></div>
+      <div><span class="xref">IParser</span></div>
     </dd>
   </dl>
 
@@ -124,6 +125,9 @@ Class CustomFactory  <a class="header-action link-secondary" title="View source"
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Parser.ParseProgram(string)</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -150,31 +154,45 @@ Class CustomFactory  <a class="header-action link-secondary" title="View source"
 
 
 
+  <h2 id="BOOSEapp_MyParser_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>Behavior summary:</p>
+<ul>
+<li>Ignores blank lines, comment lines that start with '*' and the special marker &quot;endofprogram = 0&quot;.</li>
+<li>Treats the first token (up to the first space) as the command type; the rest of the line becomes the arguments.</li>
+<li>Special-cases &quot;poke&quot;, &quot;peek&quot; and &quot;array&quot; so the remainder of the line (not just the next token) becomes the args.</li>
+<li>Converts variable declarations (&quot;int&quot;, &quot;real&quot;) into <a class="xref" href="BOOSEapp.MyInt.html">MyInt</a> / <a class="xref" href="BOOSEapp.MyReal.html">MyReal</a>.</li>
+<li>For built-in commands it asks <a class="xref" href="BOOSEapp.CustomFactory.html">CustomFactory</a> to create the command and calls <code>Set(...)</code> / <code>Compile()</code>.</li>
+<li>If the line contains an '=' it will produce a <a class="xref" href="BOOSEapp.MyEvaluation.html">MyEvaluation</a> to represent assignment expressions.</li>
+</ul>
+</div>
 
 
   <h2 class="section" id="constructors">Constructors
 </h2>
 
 
-  <a id="BOOSEapp_CustomFactory__ctor_" data-uid="BOOSEapp.CustomFactory.#ctor*"></a>
+  <a id="BOOSEapp_MyParser__ctor_" data-uid="BOOSEapp.MyParser.#ctor*"></a>
 
-  <h3 id="BOOSEapp_CustomFactory__ctor_BOOSEapp_MyCanvasOps_" data-uid="BOOSEapp.CustomFactory.#ctor(BOOSEapp.MyCanvasOps)">
-  CustomFactory(MyCanvasOps)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/CustomFactory.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSEapp_MyParser__ctor_BOOSEapp_CustomFactory_BOOSE_StoredProgram_" data-uid="BOOSEapp.MyParser.#ctor(BOOSEapp.CustomFactory,BOOSE.StoredProgram)">
+  MyParser(CustomFactory, StoredProgram)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/MyParser.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="BOOSEapp.CustomFactory.html">CustomFactory</a> class.</p>
+  <div class="markdown level1 summary"><p>Initializes a new instance of <a class="xref" href="BOOSEapp.MyParser.html">MyParser</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CustomFactory(MyCanvasOps canvas)</code></pre>
+    <pre><code class="lang-csharp hljs">public MyParser(CustomFactory customFactory, StoredProgram storedProgram)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>canvas</code> <a class="xref" href="BOOSEapp.MyCanvasOps.html">MyCanvasOps</a></dt>
-    <dd><p>Canvas operations implementation to provide to commands.</p>
+    <dt><code>customFactory</code> <a class="xref" href="BOOSEapp.CustomFactory.html">CustomFactory</a></dt>
+    <dd><p>Factory for creating command objects.</p>
+</dd>
+    <dt><code>storedProgram</code> <span class="xref">StoredProgram</span></dt>
+    <dd><p>Program instance the parser will work with.</p>
 </dd>
   </dl>
 
@@ -193,33 +211,39 @@ Class CustomFactory  <a class="header-action link-secondary" title="View source"
 </h2>
 
 
-  <a id="BOOSEapp_CustomFactory_MakeCommand_" data-uid="BOOSEapp.CustomFactory.MakeCommand*"></a>
+  <a id="BOOSEapp_MyParser_ParseCommand_" data-uid="BOOSEapp.MyParser.ParseCommand*"></a>
 
-  <h3 id="BOOSEapp_CustomFactory_MakeCommand_System_String_" data-uid="BOOSEapp.CustomFactory.MakeCommand(System.String)">
-  MakeCommand(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/CustomFactory.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSEapp_MyParser_ParseCommand_System_String_" data-uid="BOOSEapp.MyParser.ParseCommand(System.String)">
+  ParseCommand(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/MyParser.cs/#L68"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Creates an <span class="xref">BOOSE.ICommand</span> instance for the given command type string.
-Falls back to the base implementation for unknown commands.</p>
+  <div class="markdown level1 summary"><p>Parses a single program line into an <span class="xref">BOOSE.ICommand</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override ICommand MakeCommand(string commandType)</code></pre>
+    <pre><code class="lang-csharp hljs">public override ICommand ParseCommand(string line)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>commandType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Command type token (e.g. &quot;rect&quot;, &quot;circle&quot;).</p>
+    <dt><code>line</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A single line of source. Accepted forms include:</p>
+<ul>
+<li>&quot;drawto 100,100&quot; (single command with arguments)</li>
+<li>&quot;int x&quot; (declaration)</li>
+<li>&quot;x = 2 * y&quot; (assignment/expression)</li>
+<li>Comment lines starting with '*' or the special marker &quot;endofprogram = 0&quot; are ignored (return null).</li>
+</ul>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">ICommand</span></dt>
-    <dd><p>An <span class="xref">BOOSE.ICommand</span> instance that handles the requested command.</p>
+    <dd><p>The parsed <span class="xref">BOOSE.ICommand</span> ready for compilation/execution,
+or <code>null</code> when the line should be ignored (blank/comment/end marker).</p>
 </dd>
   </dl>
 
@@ -230,6 +254,12 @@ Falls back to the base implementation for unknown commands.</p>
 
 
 
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ParserException</span></dt>
+    <dd><p>Thrown when the command token is not recognized.</p>
+</dd>
+  </dl>
 
 
 
@@ -237,7 +267,7 @@ Falls back to the base implementation for unknown commands.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/CustomFactory.cs/#L12" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/MyParser.cs/#L30" class="edit-link">Edit this page</a>
         </div>
 
 

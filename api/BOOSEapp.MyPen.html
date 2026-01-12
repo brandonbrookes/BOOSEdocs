@@ -2,21 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class CustomFactory.MyMoveTo | BOOSEsite </title>
+      <title>Class MyPen | BOOSEapp </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class CustomFactory.MyMoveTo | BOOSEsite ">
+      <meta name="title" content="Class MyPen | BOOSEapp ">
       
-      <meta name="description" content="MyMoveTo class for moving the drawing cursor. Custom implementation that bypasses position limits in BOOSE MoveTo command.">
+      <meta name="description" content="Sets the drawing pen color.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
       <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
-      <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/new/main/apiSpec/new?filename=BOOSEapp_CustomFactory_MyMoveTo.md&amp;value=---%0Auid%3A%20BOOSEapp.CustomFactory.MyMoveTo%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
+      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/new/main/apiSpec/new?filename=BOOSEapp_MyPen.md&amp;value=---%0Auid%3A%20BOOSEapp.MyPen%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -44,18 +44,14 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="BOOSEsite">
-            BOOSEsite
+            <img id="logo" class="svg" src="../logo.svg" alt="BOOSEapp">
+            BOOSEapp
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
           </button>
           <div class="collapse navbar-collapse" id="navpanel">
             <div id="navbar">
-              <form class="search" role="search" id="search">
-                <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
-              </form>
             </div>
           </div>
         </div>
@@ -84,12 +80,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="BOOSEapp.CustomFactory.MyMoveTo">
+        <article data-uid="BOOSEapp.MyPen">
 
 
 
-  <h1 id="BOOSEapp_CustomFactory_MyMoveTo" data-uid="BOOSEapp.CustomFactory.MyMoveTo" class="text-break">
-Class CustomFactory.MyMoveTo  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/CustomFactory.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  <h1 id="BOOSEapp_MyPen" data-uid="BOOSEapp.MyPen" class="text-break">
+Class MyPen  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/MyCommands.cs/#L265"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +93,12 @@ Class CustomFactory.MyMoveTo  <a class="header-action link-secondary" title="Vie
   <dl><dt>Assembly</dt><dd>BOOSEapp.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>MyMoveTo class for moving the drawing cursor. Custom implementation that bypasses position limits in BOOSE MoveTo command.</p>
+  <div class="markdown summary"><p>Sets the drawing pen color.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CustomFactory.MyMoveTo : CommandTwoParameters, ICommand</code></pre>
+    <pre><code class="lang-csharp hljs">public class MyPen : CommandThreeParameters, ICommand</code></pre>
   </div>
 
 
@@ -116,7 +112,8 @@ Class CustomFactory.MyMoveTo  <a class="header-action link-secondary" title="Vie
       <div><span class="xref">CanvasCommand</span></div>
       <div><span class="xref">CommandOneParameter</span></div>
       <div><span class="xref">CommandTwoParameters</span></div>
-      <div><span class="xref">CustomFactory.MyMoveTo</span></div>
+      <div><span class="xref">CommandThreeParameters</span></div>
+      <div><span class="xref">MyPen</span></div>
     </dd>
   </dl>
 
@@ -131,6 +128,12 @@ Class CustomFactory.MyMoveTo  <a class="header-action link-secondary" title="Vie
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <span class="xref">CommandThreeParameters.param3</span>
+    </div>
+    <div>
+      <span class="xref">CommandThreeParameters.param3unprocessed</span>
+    </div>
     <div>
       <span class="xref">CommandTwoParameters.param2</span>
     </div>
@@ -226,25 +229,25 @@ Class CustomFactory.MyMoveTo  <a class="header-action link-secondary" title="Vie
 </h2>
 
 
-  <a id="BOOSEapp_CustomFactory_MyMoveTo__ctor_" data-uid="BOOSEapp.CustomFactory.MyMoveTo.#ctor*"></a>
+  <a id="BOOSEapp_MyPen__ctor_" data-uid="BOOSEapp.MyPen.#ctor*"></a>
 
-  <h3 id="BOOSEapp_CustomFactory_MyMoveTo__ctor_BOOSEapp_AppCanvas_" data-uid="BOOSEapp.CustomFactory.MyMoveTo.#ctor(BOOSEapp.AppCanvas)">
-  MyMoveTo(AppCanvas)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/CustomFactory.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSEapp_MyPen__ctor_BOOSEapp_MyCanvasOps_" data-uid="BOOSEapp.MyPen.#ctor(BOOSEapp.MyCanvasOps)">
+  MyPen(MyCanvasOps)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/MyCommands.cs/#L276"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Constructor for MyMoveTo command.</p>
+  <div class="markdown level1 summary"><p>Initializes a new instance of <a class="xref" href="BOOSEapp.MyPen.html">MyPen</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MyMoveTo(AppCanvas canvas)</code></pre>
+    <pre><code class="lang-csharp hljs">public MyPen(MyCanvasOps canvas)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>canvas</code> <a class="xref" href="BOOSEapp.AppCanvas.html">AppCanvas</a></dt>
-    <dd><p>Canvas to draw on.</p>
+    <dt><code>canvas</code> <a class="xref" href="BOOSEapp.MyCanvasOps.html">MyCanvasOps</a></dt>
+    <dd><p>Canvas to operate on.</p>
 </dd>
   </dl>
 
@@ -263,14 +266,14 @@ Class CustomFactory.MyMoveTo  <a class="header-action link-secondary" title="Vie
 </h2>
 
 
-  <a id="BOOSEapp_CustomFactory_MyMoveTo_CheckParameters_" data-uid="BOOSEapp.CustomFactory.MyMoveTo.CheckParameters*"></a>
+  <a id="BOOSEapp_MyPen_CheckParameters_" data-uid="BOOSEapp.MyPen.CheckParameters*"></a>
 
-  <h3 id="BOOSEapp_CustomFactory_MyMoveTo_CheckParameters_System_String___" data-uid="BOOSEapp.CustomFactory.MyMoveTo.CheckParameters(System.String[])">
+  <h3 id="BOOSEapp_MyPen_CheckParameters_System_String___" data-uid="BOOSEapp.MyPen.CheckParameters(System.String[])">
   CheckParameters(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/CustomFactory.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/MyCommands.cs/#L282"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Override of CheckParameters to validate MoveTo parameters.</p>
+  <div class="markdown level1 summary"><p>Validates and resolves pen color parameters.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -281,7 +284,7 @@ Class CustomFactory.MyMoveTo  <a class="header-action link-secondary" title="Vie
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>parameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
-    <dd><p>String array of parameters.</p>
+    <dd><p>Parameter tokens.</p>
 </dd>
   </dl>
 
@@ -293,23 +296,17 @@ Class CustomFactory.MyMoveTo  <a class="header-action link-secondary" title="Vie
 
 
 
-  <h4 class="section">Exceptions</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
-    <dd><p>Exception thrown for invalid parameters.</p>
-</dd>
-  </dl>
 
 
 
-  <a id="BOOSEapp_CustomFactory_MyMoveTo_Execute_" data-uid="BOOSEapp.CustomFactory.MyMoveTo.Execute*"></a>
+  <a id="BOOSEapp_MyPen_Execute_" data-uid="BOOSEapp.MyPen.Execute*"></a>
 
-  <h3 id="BOOSEapp_CustomFactory_MyMoveTo_Execute" data-uid="BOOSEapp.CustomFactory.MyMoveTo.Execute">
+  <h3 id="BOOSEapp_MyPen_Execute" data-uid="BOOSEapp.MyPen.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/CustomFactory.cs/#L196"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/MyCommands.cs/#L306"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Override of Execute to move the drawing cursor on the canvas.</p>
+  <div class="markdown level1 summary"><p>Executes the pen color change, resolving variables if required.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -333,7 +330,7 @@ Class CustomFactory.MyMoveTo  <a class="header-action link-secondary" title="Vie
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/CustomFactory.cs/#L160" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/MyCommands.cs/#L265" class="edit-link">Edit this page</a>
         </div>
 
 
@@ -344,7 +341,6 @@ Class CustomFactory.MyMoveTo  <a class="header-action link-secondary" title="Vie
       </div>
     </main>
 
-    <div class="container-xxl search-results" id="search-results"></div>
 
     <footer class="border-top text-secondary">
       <div class="container-xxl">

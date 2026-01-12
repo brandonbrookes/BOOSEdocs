@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class CustomFactory | BOOSEapp </title>
+      <title>Class MyPeek | BOOSEapp </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class CustomFactory | BOOSEapp ">
+      <meta name="title" content="Class MyPeek | BOOSEapp ">
       
-      <meta name="description" content="Factory for creating application-specific  implementations.">
+      <meta name="description" content="Implements peek operation to read from arrays and store into variables.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/new/main/apiSpec/new?filename=BOOSEapp_CustomFactory.md&amp;value=---%0Auid%3A%20BOOSEapp.CustomFactory%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/new/main/apiSpec/new?filename=BOOSEapp_MyPeek.md&amp;value=---%0Auid%3A%20BOOSEapp.MyPeek%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -80,12 +80,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="BOOSEapp.CustomFactory">
+        <article data-uid="BOOSEapp.MyPeek">
 
 
 
-  <h1 id="BOOSEapp_CustomFactory" data-uid="BOOSEapp.CustomFactory" class="text-break">
-Class CustomFactory  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/CustomFactory.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <h1 id="BOOSEapp_MyPeek" data-uid="BOOSEapp.MyPeek" class="text-break">
+Class MyPeek  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/Variables.cs/#L724"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -93,12 +93,12 @@ Class CustomFactory  <a class="header-action link-secondary" title="View source"
   <dl><dt>Assembly</dt><dd>BOOSEapp.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Factory for creating application-specific <span class="xref">BOOSE.ICommand</span> implementations.</p>
+  <div class="markdown summary"><p>Implements peek operation to read from arrays and store into variables.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CustomFactory : CommandFactory, ICommandFactory</code></pre>
+    <pre><code class="lang-csharp hljs">public class MyPeek : Evaluation, ICommand</code></pre>
   </div>
 
 
@@ -108,15 +108,16 @@ Class CustomFactory  <a class="header-action link-secondary" title="View source"
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">CommandFactory</span></div>
-      <div><span class="xref">CustomFactory</span></div>
+      <div><span class="xref">Command</span></div>
+      <div><span class="xref">Evaluation</span></div>
+      <div><span class="xref">MyPeek</span></div>
     </dd>
   </dl>
 
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><span class="xref">ICommandFactory</span></div>
+      <div><span class="xref">ICommand</span></div>
     </dd>
   </dl>
 
@@ -124,6 +125,75 @@ Class CustomFactory  <a class="header-action link-secondary" title="View source"
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <span class="xref">Evaluation.expression</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.evaluatedExpression</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.varName</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.value</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.Compile()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Evaluation.ProcessExpression(string)</a>
+    </div>
+    <div>
+      <span class="xref">Evaluation.Expression</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.VarName</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.Value</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.Local</span>
+    </div>
+    <div>
+      <span class="xref">Command.IsDouble</span>
+    </div>
+    <div>
+      <span class="xref">Command.program</span>
+    </div>
+    <div>
+      <span class="xref">Command.parameterList</span>
+    </div>
+    <div>
+      <span class="xref">Command.parameters</span>
+    </div>
+    <div>
+      <span class="xref">Command.paramsint</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.Set(StoredProgram, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.ProcessParameters(string)</a>
+    </div>
+    <div>
+      <span class="xref">Command.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">Command.Program</span>
+    </div>
+    <div>
+      <span class="xref">Command.Name</span>
+    </div>
+    <div>
+      <span class="xref">Command.ParameterList</span>
+    </div>
+    <div>
+      <span class="xref">Command.Parameters</span>
+    </div>
+    <div>
+      <span class="xref">Command.Paramsint</span>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -142,47 +212,7 @@ Class CustomFactory  <a class="header-action link-secondary" title="View source"
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
-    </div>
   </dd></dl>
-
-
-
-
-
-
-  <h2 class="section" id="constructors">Constructors
-</h2>
-
-
-  <a id="BOOSEapp_CustomFactory__ctor_" data-uid="BOOSEapp.CustomFactory.#ctor*"></a>
-
-  <h3 id="BOOSEapp_CustomFactory__ctor_BOOSEapp_MyCanvasOps_" data-uid="BOOSEapp.CustomFactory.#ctor(BOOSEapp.MyCanvasOps)">
-  CustomFactory(MyCanvasOps)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/CustomFactory.cs/#L23"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="BOOSEapp.CustomFactory.html">CustomFactory</a> class.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CustomFactory(MyCanvasOps canvas)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>canvas</code> <a class="xref" href="BOOSEapp.MyCanvasOps.html">MyCanvasOps</a></dt>
-    <dd><p>Canvas operations implementation to provide to commands.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
 
 
 
@@ -193,35 +223,54 @@ Class CustomFactory  <a class="header-action link-secondary" title="View source"
 </h2>
 
 
-  <a id="BOOSEapp_CustomFactory_MakeCommand_" data-uid="BOOSEapp.CustomFactory.MakeCommand*"></a>
+  <a id="BOOSEapp_MyPeek_CheckParameters_" data-uid="BOOSEapp.MyPeek.CheckParameters*"></a>
 
-  <h3 id="BOOSEapp_CustomFactory_MakeCommand_System_String_" data-uid="BOOSEapp.CustomFactory.MakeCommand(System.String)">
-  MakeCommand(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/CustomFactory.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSEapp_MyPeek_CheckParameters_System_String___" data-uid="BOOSEapp.MyPeek.CheckParameters(System.String[])">
+  CheckParameters(string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/Variables.cs/#L733"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Creates an <span class="xref">BOOSE.ICommand</span> instance for the given command type string.
-Falls back to the base implementation for unknown commands.</p>
+  <div class="markdown level1 summary"><p>Parses peek syntax into target, array name and index expression.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override ICommand MakeCommand(string commandType)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void CheckParameters(string[] parameterList)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>commandType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Command type token (e.g. &quot;rect&quot;, &quot;circle&quot;).</p>
-</dd>
+    <dt><code>parameterList</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
   </dl>
 
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">ICommand</span></dt>
-    <dd><p>An <span class="xref">BOOSE.ICommand</span> instance that handles the requested command.</p>
-</dd>
-  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEapp_MyPeek_Execute_" data-uid="BOOSEapp.MyPeek.Execute*"></a>
+
+  <h3 id="BOOSEapp_MyPeek_Execute" data-uid="BOOSEapp.MyPeek.Execute">
+  Execute()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/Variables.cs/#L754"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Executes peek by resolving the array element and storing it into the named variable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Execute()</code></pre>
+  </div>
+
+
 
 
 
@@ -237,7 +286,7 @@ Falls back to the base implementation for unknown commands.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/CustomFactory.cs/#L12" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ASE2025repos/ase-boose-assignment-brandonbrookes/blob/main/BOOSEapp/Variables.cs/#L724" class="edit-link">Edit this page</a>
         </div>
 
 
